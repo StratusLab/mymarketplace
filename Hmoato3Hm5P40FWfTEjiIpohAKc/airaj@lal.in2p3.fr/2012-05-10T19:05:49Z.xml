@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://mp.stratuslab.eu/slreq#" xmlns:ns3="http://mp.stratuslab.eu/slterms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#Hmoato3Hm5P40FWfTEjiIpohAKc">
+
+        <ns1:identifier>Hmoato3Hm5P40FWfTEjiIpohAKc</ns1:identifier>
+
+        <ns2:bytes>5368709120</ns2:bytes>
+
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>MD5</ns2:algorithm>
+            <ns2:value>d41d8cd98f00b204e9800998ecf8427e</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-1</ns2:algorithm>
+            <ns2:value>79a86ada371e6e4fe341567d3123888a6884029c</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-256</ns2:algorithm>
+            <ns2:value>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-512</ns2:algorithm>
+            <ns2:value>cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</ns2:value>
+        </ns2:checksum>
+
+        <ns1:type>base</ns1:type>
+        <ns3:kind>machine</ns3:kind>
+
+        <ns3:os>CentOS</ns3:os>
+        <ns3:os-version>6.2</ns3:os-version>
+        <ns3:os-arch>x86_64</ns3:os-arch>
+        <ns3:version>1.1</ns3:version>
+        <ns1:compression>gz</ns1:compression>
+        <ns3:location>pdisk:62.217.120.157:8445:c2240476-bb1c-49a3-bf21-fe56d7af2de2</ns3:location>
+
+        <ns1:format>raw</ns1:format>
+
+        <ns1:creator>hudson builder</ns1:creator>
+
+        <ns1:created>2012-05-10T14:45:29Z</ns1:created>
+        <ns1:valid>2012-05-12T14:45:29Z</ns1:valid>
+
+        <ns1:description>CentOS  6.2 appliance with StratusLab Benchmarks installed. Image has only root account. The firewall in the image is disabled, IPv6 is enabled, and SELinux disabled. Uses the standard StratusLab contextualization mechanisms. A swap volume is expected to be provided on /dev/sdb. </ns1:description>
+
+        <ns3:hypervisor>kvm</ns3:hypervisor>
+
+        <ns1:publisher>StratusLab</ns1:publisher>
+        
+
+    <ns2:endorsement parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-05-10T19:05:49Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>airaj@lal.in2p3.fr</email><subject>CN=mohammed airaj,OU=Testing Department,O=StratusLab Project,C=EU</subject><issuer>CN=mohammed airaj,OU=Testing Department,O=StratusLab Project,C=EU</issuer></endorser></ns2:endorsement><ns3:deprecated>udev 70 persistent</ns3:deprecated></rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>XOI+CfvWxBn/emdpOHhrmnY4QXc=</DigestValue></Reference></SignedInfo><SignatureValue>2pUnMAlLuTXwiySHQ8sffalHXB2A+G+a+jRoRqCZOVXGYvd5sOUuxY+tHgJQWqoKXTjFPG0HQuER
+8L1D78gmKFlEVQ08HK3smP8KRB2zQrDH9TsQWu9IoLvlOHCkzfrcKRO/qn7dBQWqw5yfWVNfgrwz
+ShkO2b00IoEMZ5lQcVTWIAf3vFsO+vvWVwFi1l5j3EsD7KcnQlnTvC9zwLwZdm2zTX/2Rf7sa/8M
+CNJxWHbT4GTcoJB0QJPj92mtUYU0fBdL7tvHyHv4T1jISqwK1F7dWN9Xq3JCplLiUxacKOkGQRlK
+Q8/tCLVrnbZZaqpaE3yzwiMxO87xh5J2WmBYFA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIESjCCAzKgAwIBAgIJALnqD4ypVTqhMA0GCSqGSIb3DQEBBQUAMGAxCzAJBgNVBAYTAkVVMRsw
+GQYDVQQKExJTdHJhdHVzTGFiIFByb2plY3QxGzAZBgNVBAsTElRlc3RpbmcgRGVwYXJ0bWVudDEX
+MBUGA1UEAxMObW9oYW1tZWQgYWlyYWowHhcNMTIwNTEwMTg1NjUwWhcNMTMwNTEwMTg1NjUwWjBg
+MQswCQYDVQQGEwJFVTEbMBkGA1UEChMSU3RyYXR1c0xhYiBQcm9qZWN0MRswGQYDVQQLExJUZXN0
+aW5nIERlcGFydG1lbnQxFzAVBgNVBAMTDm1vaGFtbWVkIGFpcmFqMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA289me2Vv6GzUmHn51GFiIawlRpvN8+//62wq9WELAstqmuIfZzCyIbXH
+FthleRRbOi7GX1CUrCpMA7skGQJQSNn+lbcbkyx1ITzpSHZYdMsBvwRzZbO5OZOifmtsEN0n9eop
+iXFeqwQ9Pjy6DshHj+fj+uR4+8UguLXdrV1AJS9eVTNm5CHpEL5vZSZWiFPYG1cQZuSATjquLwy8
+WBTKgYYguxleJGQjHxCKxRLPEnxtOL1TkzMsgFh2M0dyqepxB8K0//5yobtLKEb6tGLFOvLhSAXl
+5yziuMDOAPLSYZnF2CJ1M5ZwoYIL+aZ/edbVFA5XT1GcjB1cHlnla7ue5QIDAQABo4IBBTCCAQEw
+CQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBLAwDgYDVR0PAQH/BAQDAgP4MB0GA1UdDgQWBBQH
+fE1WcTI6ExF8CWqtF0sS9JGIkDCBkgYDVR0jBIGKMIGHgBQHfE1WcTI6ExF8CWqtF0sS9JGIkKFk
+pGIwYDELMAkGA1UEBhMCRVUxGzAZBgNVBAoTElN0cmF0dXNMYWIgUHJvamVjdDEbMBkGA1UECxMS
+VGVzdGluZyBEZXBhcnRtZW50MRcwFQYDVQQDEw5tb2hhbW1lZCBhaXJhaoIJALnqD4ypVTqhMB0G
+A1UdEQQWMBSBEmFpcmFqQGxhbC5pbjJwMy5mcjANBgkqhkiG9w0BAQUFAAOCAQEArC/tAE4tsMO3
+WpaC4HMt1tL62nVkK0m34Den+OKoVNjjMl064jL+9tWHopE3zZDD7B5wF9tWQkybUIWpAtbAuWzu
+jKO3gtyFyAZ/9aE5pzuh3V4ZvGPt/sJrL0JqZ7DPE7FVUK4zNo+PdRk95r1Dbua84qI8pqCbGIFu
+go1ISL0mAg4jmaET1+0d/RudasY4GWKeJN7LLVlIEquE3tdX9FjKPai78Ca8Ux44XJMNkjWjWYTS
+sBC9UCKgVwKLp2uKfiFt01MDTpobnT5LJ0F0zISKVjZNSmCwYkWV9bl+Y5sdYwMXtkDDhMi2Lc7E
+7/a+wNQihxC/JxjwElt9ExMSZA==</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

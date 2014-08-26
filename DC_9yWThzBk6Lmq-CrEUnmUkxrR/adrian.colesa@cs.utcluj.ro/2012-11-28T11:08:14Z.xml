@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#DC_9yWThzBk6Lmq-CrEUnmUkxrR">
+
+        <dcterms:identifier>DC_9yWThzBk6Lmq-CrEUnmUkxrR</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>039415003e717a01351ac9e7af558d4c</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>30bff72593873064e8b9aaf82ac4527994931ad1</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>10547bcbe849809287794e1233fd6260b1c9c7c95b0ed572552deab52edeeef0</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>9fa492e2719137f451b4d3971a3d458e17d165d1a71dc4573d3b56fab0c8a7b0d2de272dc5e76d8b4227924b72627dc342e226c2cca832f3309cca05d39ddd38</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-11-28T11:08:14Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>adrian.colesa@cs.utcluj.ro</email><subject>CN=Adrian Colesa,O=UTCluj,DC=RomanianGRID,DC=RO</subject><issuer>CN=RomanianGRID CA,OU=Certification Authority,O=ROSA,DC=RomanianGRID,DC=RO</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>IGE-GRIDWAY-packages-configured</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>IGE-ubuntu</slterms:os>
+        <slterms:os-version>12.04</slterms:os-version>
+        <slterms:os-arch>i686</slterms:os-arch>
+        <slterms:version>1.0.0</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://igeservices.utcluj.ro/ige-gt-appliances/basic/ige-configured/ige-packages/ubuntu/ubuntu-12.04-i686-gridway-ige3.0-5G-1.0.0.img.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator/>
+
+        <dcterms:created>2012-11-25T21:39:48Z</dcterms:created>
+        <dcterms:valid>2013-05-22T21:39:48Z</dcterms:valid>
+
+        <dcterms:description>
+The machine contains IGE v3.0 components installed from IGE repositories. We executed the following steps:
+1. Configured the IGE repositories as sources for OS packages.
+See the file "/etc/apt/sources.list.d/IGE.list" for Debian-based distributions, or "/etc/yum.repos.d/IGE.repo" for RHEL based distributions.
+2. Installed the GridWay components (gridway-core, gridway-gt5, gridway-bes) from the IGE repositories, using  the "ige-meta-gridway" package.
+3. Partially configured the gridway: environment variables (/etc/profile.d/gridway.sh) and sudo configurations (/etc/sudoers.d/gridway) based on the installed gridway REAMDE file.
+4. Configured the eugridpma/nordugrid repositories as sources for OS packages.
+See the file "/etc/apt/sources.list.d/nordugrid.list" for Debian-based distributions, or "/etc/yum.repos.d/eugridpma.list" for RHEL based distributions.
+5. Installed the certificates of different reknown CAs included in the "ca-policy-igtf-classic/ca_policy_igtf-classic" package.
+6. Installed the fetch-crl utility included in the "fetch-crl" package.
+There is no host/user certificate installed.	
+	</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+        <slterms:disks-bus>ide</slterms:disks-bus>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>HduOGWP41rk9pgvYnb1G+F4CaTA=</DigestValue></Reference></SignedInfo><SignatureValue>k5epf+1awGEb7me5Bi89Kmo5BZw+HV81++2577Uwuo89MUDLb+A60Not0dmJ3Hk+eYIkBl+V2OI9
+sWmcp2S9BTb1EorSyfbReBPw4V8HhU3jVeMj3c1+CIhYWg7caEzfKbrO9uUkrplfhKYLCLf3nPUA
+MEh/NyFl/IxlLZBO6JlTp/M8usDwFH8Nzx2vAc8a5Q8CpdeVPOGoIkFHZiwjcjpK7eng1H3GV6/h
+k58a4gh2vv/WnWQ4Wkl868U0Wx6SJstmtBLYKwnOEoBFFXW8Wuz2WFuO7rTAaBn1gmshX3Wntur2
+0+KLpCFVad7K7YuE58HRUBmJ3VN68u2H7BItEA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIE6jCCA9KgAwIBAgICAy0wDQYJKoZIhvcNAQEFBQAwfTESMBAGCgmSJomT8ixkARkTAlJPMRww
+GgYKCZImiZPyLGQBGRMMUm9tYW5pYW5HUklEMQ0wCwYDVQQKEwRST1NBMSAwHgYDVQQLExdDZXJ0
+aWZpY2F0aW9uIEF1dGhvcml0eTEYMBYGA1UEAxMPUm9tYW5pYW5HUklEIENBMB4XDTEyMTExMjEz
+NDYzNFoXDTEzMTExMjEzNDYzNFowWzESMBAGCgmSJomT8ixkARkWAlJPMRwwGgYKCZImiZPyLGQB
+GRYMUm9tYW5pYW5HUklEMQ8wDQYDVQQKEwZVVENsdWoxFjAUBgNVBAMTDUFkcmlhbiBDb2xlc2Ew
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDFn1cbcZFQWXiY6hPXXjTPeqTKci8TSiiW
+YZct18QKu6Cg/OzqOVnXkACvllW16OUA+DtoUDHPaWvjNJ56TNiaOT26jcv5xfq+DJKI4tUBDlUq
+drMvKQ9VrdbMr5OfibdTQxtrxxxItG0v38d7Fs6n1SJzTYI/exPQi1/UTM/66gzzM6aQ8ZIntjTw
+Z331Tzg07vO7iwg9JTT2gjy6DElKqZIID6tBxP8t3jchAMoHJFSkRnqm6zhQujthaJ0hWY88JPWa
+R8rgtJ9ACUX8bXo8xzZc3P6gsG+OZRZDAt7xNhS5FIzaJFI2vqCEYHYWPeAaH3CLzWJ8EuSfYsg4
+girtAgMBAAGjggGUMIIBkDAMBgNVHRMBAf8EAjAAMBEGCWCGSAGG+EIBAQQEAwIFoDAOBgNVHQ8B
+Af8EBAMCBLAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBSlSBsZx2iP
+gd4iQs1wPR6HcBW+gzAfBgNVHSMEGDAWgBR/EM1cbqzKaxIL4KmHiBGVvDAXaDBjBgNVHSAEXDBa
+MFgGDisGAQQBgdNfCQECAQEEMEYwRAYIKwYBBQUHAgEWOGh0dHA6Ly93d3cucm9tYW5pYW5ncmlk
+LnJvL2RvY3MvUm9tYW5pYW5HUklEX0NBX3YxLjQucGRmMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6
+Ly93d3cucm9tYW5pYW5ncmlkLnJvL2NybC9jcmwtdjIuZGVyMDYGA1UdEgQvMC2BD2dyaWQtY2FA
+cm9zYS5yb4YaaHR0cDovL3d3dy5yb21hbmlhbmdyaWQucm8wJQYDVR0RBB4wHIEaYWRyaWFuLmNv
+bGVzYUBjcy51dGNsdWoucm8wDQYJKoZIhvcNAQEFBQADggEBAHjEuKVSMF16gCGNz6fya4c2mlse
+Lc5ypTQGNkLU/K+g+aWCyLiJGuKrAAr+Ls5f7Ni4qns0yYvitBSvxIHikGxW0JgtHH3y7wnWKsFl
+dFSKaA2oZxHMFthVftS9mXTL89lPDc3iALKrtDI0qty4Rjno5z52EtPHopH7YgQJBpxitq+gY2GT
+ThVPRT54UXyg52OJFBkNRjgdPJlwmQ7SvfV0pAvNeUG37x3E+h+F5buob07xx7xHd7KqyvtRlQF/
+bYFLqc8leQOj7X6XP899xjnvpYfEkZ9isTaafclamB+wv4c2XFxayDZ8do9RFbrvFwM1oKOis7w+
+IieZSC+6Nqc=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

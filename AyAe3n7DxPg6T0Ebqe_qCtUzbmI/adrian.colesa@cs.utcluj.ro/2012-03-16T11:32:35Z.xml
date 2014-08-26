@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#AyAe3n7DxPg6T0Ebqe_qCtUzbmI">
+
+        <ns2:identifier xmlns:ns2="http://purl.org/dc/terms/">AyAe3n7DxPg6T0Ebqe_qCtUzbmI</ns2:identifier>
+
+        <ns2:bytes xmlns:ns2="http://mp.stratuslab.eu/slreq#">1212401560</ns2:bytes>
+
+        <ns2:checksum xmlns:ns2="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource">
+            <ns2:algorithm>MD5</ns2:algorithm>
+            <ns2:value>f604cc73a467b97ee9c61048e9469a98</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum xmlns:ns2="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource">
+            <ns2:algorithm>SHA-1</ns2:algorithm>
+            <ns2:value>0c807b79fb0f13e0e93d046ea7bfa82b54cdb988</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum xmlns:ns2="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource">
+            <ns2:algorithm>SHA-256</ns2:algorithm>
+            <ns2:value>02284f66c3434a5ee81b0d014d657d175e6f23c20700378dda2a182cf10bb63c</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum xmlns:ns2="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource">
+            <ns2:algorithm>SHA-512</ns2:algorithm>
+            <ns2:value>5bb18209109f46e373acde477f8362a0fe0fa9fad6a07834926cdb77c2066d124150397839b1232c9823bd75ec5444e550b1cab6ec2010fd067170d3dceb0475</ns2:value>
+        </ns2:checksum>
+
+        <ns2:type xmlns:ns2="http://purl.org/dc/terms/">IGE-GT5-src-configured</ns2:type>
+        <ns2:kind xmlns:ns2="http://mp.stratuslab.eu/slterms#">machine</ns2:kind>
+
+        <ns2:os xmlns:ns2="http://mp.stratuslab.eu/slterms#">IGE-GT5-CentOS</ns2:os>
+        <ns2:os-version xmlns:ns2="http://mp.stratuslab.eu/slterms#">6.0</ns2:os-version>
+        <ns2:os-arch xmlns:ns2="http://mp.stratuslab.eu/slterms#">i686</ns2:os-arch>
+        <ns2:version xmlns:ns2="http://mp.stratuslab.eu/slterms#">1.0.0</ns2:version>
+        <ns2:compression xmlns:ns2="http://purl.org/dc/terms/">gz</ns2:compression>
+        
+	<ns2:location xmlns:ns2="http://mp.stratuslab.eu/slterms#">http://igeservices.utcluj.ro/ige-gt-appliances/basic/gt5-configured/sources/centos/centos-6.0-i686-gt5.0.4-configured-1.0.0.img.gz</ns2:location>
+
+        <ns2:format xmlns:ns2="http://purl.org/dc/terms/">raw</ns2:format>
+
+        <ns2:creator xmlns:ns2="http://purl.org/dc/terms/">Initiative for Globus in Europe (IGE)</ns2:creator>
+
+        <ns2:created xmlns:ns2="http://purl.org/dc/terms/">2011-12-04T14:58:21Z</ns2:created>
+        <ns2:valid xmlns:ns2="http://purl.org/dc/terms/">2012-05-30T14:58:21Z</ns2:valid>
+
+        <ns2:description xmlns:ns2="http://purl.org/dc/terms/">
+	Globus appliance built by IGE (Initiative for Globus in Europe). Only root login is allowed, using ssh keys.
+        The appliance contains the Globus Toolkit (GT) 5.0.4 installed from sources.
+        The following GT services were also configured: GridFTP server, GRAM5 (jobmanager-fork), gsi-openssh server.
+        The following steps (see the quickstart guide at http://globus.org/toolkit/docs/latest-stable/admin/quickstart/#quickstart and http://globus.org/toolkit/docs/5.0/5.0.4/security/openssh/admin/#opensshAdmin) were performed:
+        (1) Install all the prerequisite packages.
+        (2) Download GT 5.0.4 from http://www.globus.org/ftppub/gt5/5.0/5.0.4/installers/src/gt5.0.4-all-source-installer.tar.bz2
+        (3) Untar the sources.
+        (4) ./configure --prefix=/usr/local/globus-5.0.4/ --with-iodbc=/usr/lib --with-buildopts=--verbose
+        (5) make
+        (6) make install
+        (7) Create GridFTP xinetd config file /etc/xinetd.d/gridftp.
+        (8) Create GRAM5 xinetd config file /etc/xinetd.d/gsigatekeeper.
+        (9) Create or modify GSI-OPENSSH config files "/etc/init.d/gsi-opensshd" and "/usr/local/globus-5.0.4/etc/ssh/sshd_config".
+        Sources are installed in "/home/globu/gt5/gt5.0.4-all-source-installer".
+        The same directory contains the output of the last three steps of the compilation, saved in the files "ige_config.log", "ige_make.log", "ige_make_install.log".
+        There is no host/user certificate installed.
+	</ns2:description>
+
+        <ns2:hypervisor xmlns:ns2="http://mp.stratuslab.eu/slterms#">kvm</ns2:hypervisor>
+
+        <ns2:publisher xmlns:ns2="http://purl.org/dc/terms/">StratusLab</ns2:publisher>
+        
+
+    <ns2:endorsement xmlns:ns2="http://mp.stratuslab.eu/slreq#" parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-03-16T11:32:35Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>adrian.colesa@cs.utcluj.ro</email><subject>CN=Adrian Colesa,O=UTCluj,DC=RomanianGRID,DC=RO</subject><issuer>CN=RomanianGRID CA,OU=Certification Authority,O=ROSA,DC=RomanianGRID,DC=RO</issuer></endorser></ns2:endorsement><ns2:deprecated xmlns:ns2="http://mp.stratuslab.eu/slterms#">New StratusLab release uses the checksum of the uncompressed image, but for this one the checksum was calculated on the compressed image</ns2:deprecated></rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>CuCq8TsCGxlkvxyMfP/NzJBmsA8=</DigestValue></Reference></SignedInfo><SignatureValue>c0rKILf1uiD6WybW5uAB1KR7/OY7tOn0lYToN8YmVGZ153SxBZ1JktuAlWxiWnl8fffV4hmBtVqb
+XqlBsucE5NfNrQQpiIwG/I6vVmJsPuYeoJhUPklJqZFkRwGocwD1RHyxT7JIFEBOQy9BSRTIVMMY
+qZLC47zF5HAJkTaFnyI=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEZjCCA06gAwIBAgICAdswDQYJKoZIhvcNAQEFBQAwfTESMBAGCgmSJomT8ixkARkTAlJPMRww
+GgYKCZImiZPyLGQBGRMMUm9tYW5pYW5HUklEMQ0wCwYDVQQKEwRST1NBMSAwHgYDVQQLExdDZXJ0
+aWZpY2F0aW9uIEF1dGhvcml0eTEYMBYGA1UEAxMPUm9tYW5pYW5HUklEIENBMB4XDTEwMTEwMzE0
+MjgwMVoXDTExMTEwMzE0MjgwMVowWzESMBAGCgmSJomT8ixkARkWAlJPMRwwGgYKCZImiZPyLGQB
+GRYMUm9tYW5pYW5HUklEMQ8wDQYDVQQKEwZVVENsdWoxFjAUBgNVBAMTDUFkcmlhbiBDb2xlc2Ew
+gZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKegnlX6K3S0uPwHNxBy5rAxcX/IaNq+vdJY9rM+
+3Dek0HQWtqquw5spx5yqlcyRP7gFZdmeoCHT9C5Fg72eSaDfroA1Uq70vypmEL0cwsDhV0Jx5ghs
+i+MXf9bi569kiwlwe/OeQUE5FXvLxqfYb47qXF+6EGshm/+fea5iUfPvAgMBAAGjggGUMIIBkDAM
+BgNVHRMBAf8EAjAAMBEGCWCGSAGG+EIBAQQEAwIFoDAOBgNVHQ8BAf8EBAMCBLAwHQYDVR0lBBYw
+FAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBTHuK/5zCkIbGtsF8KmtP0EbsCAzDAfBgNV
+HSMEGDAWgBR/EM1cbqzKaxIL4KmHiBGVvDAXaDBjBgNVHSAEXDBaMFgGDisGAQQBgdNfCQECAQEE
+MEYwRAYIKwYBBQUHAgEWOGh0dHA6Ly93d3cucm9tYW5pYW5ncmlkLnJvL2RvY3MvUm9tYW5pYW5H
+UklEX0NBX3YxLjQucGRmMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly93d3cucm9tYW5pYW5ncmlk
+LnJvL2NybC9jcmwtdjIuZGVyMDYGA1UdEgQvMC2BD2dyaWQtY2FAcm9zYS5yb4YaaHR0cDovL3d3
+dy5yb21hbmlhbmdyaWQucm8wJQYDVR0RBB4wHIEaYWRyaWFuLmNvbGVzYUBjcy51dGNsdWoucm8w
+DQYJKoZIhvcNAQEFBQADggEBAGg4+8Xp70HryMWYI1QYqvMD27KFeQY/EcTRajcybvcE6V1Z4+1c
+2fRU5qQIg5tAUSLQVjQlTAUCkXo5YrEAPaDXgCKVhN1q0j1RnvAiBUz9o8tTOvLMCXHU2ehujc/+
+NF+S4/eov+2h5LUG+2BOi3l8f6RJz8dKurPvE3ViU7tp1GLEZGujMSJGbWnB/u8NQ1qr5wm3z5i9
+lYT/Bba2ZuZVQHk2fsa7wqbYlRfEdnp/pPkdg1HipGf0tLqlCohK4xwl5ES1LUpoMzTccTCuzWO3
+XwD+bk7Et4HyN77Wp7wYhIt+Y7T0wteXtWGxyNrjuxd9bRp723Mh2a0fKFR/YA4=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

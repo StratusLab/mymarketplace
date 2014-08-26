@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#CPOY_Y07KEoFjQI7xiX6PU68Uid">
+
+        <dcterms:identifier>CPOY_Y07KEoFjQI7xiX6PU68Uid</dcterms:identifier>
+
+        <slreq:bytes>4211605504</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>8127ba99e99d80adb5626ca581ad8eed</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>23ce63f634eca128163408ef1897e8f53af1489d</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>f77519a185ee000a2ebe40b2118f7b86e0091534ed66034ff356e5e779f16d3e</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>9d50ad4e03ff50ee5de347c17ad308b3da086bba4f2c279dc9ec705a2f14e3a9150d4c01a80adbf0f76e92d636764ef04d6cca665d1204eb74cb5832e9dbbae6</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-02-13T16:01:41Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>aassiki@cslab.ece.ntua.gr</email><subject>CN=Athanassia Assiki,OU=ntua.gr,O=HellasGrid,C=GR</subject><issuer>CN=HellasGrid CA 2006,OU=Certification Authorities,O=HellasGrid,C=GR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>grid.se</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>SL</slterms:os>
+        <slterms:os-version>5.5</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version/>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://appliances.stratuslab.eu/images/grid/se/sl-5.5-x86_64-grid.se/4.0/sl-5.5-x86_64-grid.se-4.0.qcow.gz</slterms:location>
+
+        <dcterms:format>qcow2</dcterms:format>
+
+        <dcterms:creator>Nasia Asiki</dcterms:creator>
+
+        <dcterms:created>2012-02-13T15:54:50Z</dcterms:created>
+        <dcterms:valid>2012-08-09T15:54:50Z</dcterms:valid>
+
+        <dcterms:description>Uses standard StratusLab contextualization. Fromat qcow2. Image only has 'root' account configured. Only logins via ssh keys are allowed. The root disk has 10 GB of space. The gLite 3.2 packages for Storage Element are installed in this image.</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>wmw1u6PoQXhjnNRpZjLEObEoIZ4=</DigestValue></Reference></SignedInfo><SignatureValue>CpHSnoh2+b98W0qKS1JGV6mQmNAS2T7KyF/EfKfkUlcQLThmLdEBWxMD/Kemj3koo7Gek1yjwx3q
+TrSt6BiFjOMuJgJP7QvccULGkbqQe6u8E9N1RF+O+xPM6rGJT2KZAwplShF76lqLPWMOyKapKHwG
+fBwzBUs+7nYpl1ddHKGcr2diTnMoUoEdoctJ9+oPxJ+l0T7z7RAbygp+smrmt8S/yObn2SOOgQ4o
+U6I4tvWO7Gpr131U7+B5RpkutIqBIVWygtZrPt6fcOn3Z9IMmHpiG2cfOGvV0+NmlXnApgd1M6PQ
+dqOqef5CiYqwOsDy6/AUJ4NnoQey7AoK82cGow==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFUTCCBDmgAwIBAgICBjkwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCR1IxEzARBgNVBAoT
+CkhlbGxhc0dyaWQxIjAgBgNVBAsTGUNlcnRpZmljYXRpb24gQXV0aG9yaXRpZXMxGzAZBgNVBAMT
+EkhlbGxhc0dyaWQgQ0EgMjAwNjAeFw0xMDA4MjMwNjIxMTFaFw0xMTA4MjMwNjIxMTFaMFAxCzAJ
+BgNVBAYTAkdSMRMwEQYDVQQKEwpIZWxsYXNHcmlkMRAwDgYDVQQLEwdudHVhLmdyMRowGAYDVQQD
+ExFBdGhhbmFzc2lhIEFzc2lraTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEUV/vz
+Tu8B0kbyLLz5g5XAYQNSwzrIypwliOXBrD/qJvUecaDgUnbDr24RfgIYNDrQc10280Q/WsnfWwQx
+MKWzkrg4H/ushjq51unhI4CfZPrrCshDuh1imDF3Tm4EdKr0VWWQDoJfI6GLqss8V/j4qqrDZI5S
+pJMjD0kAQCsfFIrPbsPeQnR5dX9boznjy1xg1sVFdIAFrQJ2y7ZE+R9/JQmo9o/qUnzyvMMBNuWx
+FmJ9xGSMM83R4OhTnMswCbjGpZUR5b8TdCkVzUlmJTsd2nze/8JXsTq0ny1Ly+WBPxZL25UmSEYy
+bt8HHDX5P56ls1IfKfxnLM8FwZ4da7kCAwEAAaOCAiAwggIcMAwGA1UdEwEB/wQCMAAwEQYJYIZI
+AYb4QgEBBAQDAgWgMA4GA1UdDwEB/wQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUH
+AwQwHQYDVR0OBBYEFMZ2yloGNujnNJ+VsUJ/sphJx4WPMIGSBgNVHSMEgYowgYeAFAnX8l0L4zof
+bORDvgE9TzywZl4moWykajBoMQswCQYDVQQGEwJHUjETMBEGA1UEChMKSGVsbGFzR3JpZDEiMCAG
+A1UECxMZQ2VydGlmaWNhdGlvbiBBdXRob3JpdGllczEgMB4GA1UEAxMXSGVsbGFzR3JpZCBSb290
+IENBIDIwMDaCAQEwJQYDVR0SBB4wHIEaaGVsbGFzZ3JpZC1jYUBncmlkLmF1dGguZ3IwJAYDVR0R
+BB0wG4EZYWFzc2lraUBjc2xhYi5lY2UubnR1YS5ncjB/BgNVHSAEeDB2MHQGDSsGAQQBgbpFCAEB
+AgAwYzBhBggrBgEFBQcCARZVaHR0cDovL3d3dy5ncmlkLmF1dGguZ3IvcGtpL2hlbGxhc2dyaWQt
+Y2EtMjAwNi9kb2N1bWVudHMvY3BzL0hlbGxhc0dyaWQtQ0EtQ1AtQ1BTLnBkZjBIBgNVHR8EQTA/
+MD2gO6A5hjdodHRwOi8vY3JsLmdyaWQuYXV0aC5nci9oZWxsYXNncmlkLWNhLTIwMDYvODJiMzZm
+Y2EuY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQCH6xOHFPHJc4ipRLkVgnbUqSeIBsk64x+Y+eG72Ect
+0vvHjlFHhv4N71dZNxcTtom62qT/Y8jhLWr+Dhnb4zN02g2iY8ZA/zPhMpg+gmS0YdbYd2km7C0V
+x6wnOye/ml9b5R8rTKHWlSlS25uCwC+M11SbhlLxfJrzNpZdsFWiRuFZp4xMTwQMxfFHpk7S/2+6
+gF3FlUisHpL6ayfMw4rHt6ngHMP0Z2mO2Oz9xrq9pcNFuR+bruLRj1CE9O+MxJZGAEMDmAJm7b5o
+yfHMR51ntk1dXvrXDtq4ipsrwDluskgcYTSJKJ6IyjBHXFHPZRz6keOqSWJv+6JRCKEyGOJD</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

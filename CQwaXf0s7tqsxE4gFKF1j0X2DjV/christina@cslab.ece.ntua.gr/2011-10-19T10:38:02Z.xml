@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#CQwaXf0s7tqsxE4gFKF1j0X2DjV">
+
+        <dcterms:identifier>CQwaXf0s7tqsxE4gFKF1j0X2DjV</dcterms:identifier>
+
+        <slreq:bytes>640904449</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>b7a7889bc5b57806ea4579c94a8048b4</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>24306977f4b3bb6ab31138805285d63d17d838d5</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>07006c40126d918f191f543991dd023c55147c530ff88bfa49d95dc18256b451</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>c31fc1178d9d511d6f54d4dfab2c7f0e29f584a5ac38a964ef2737bff2ea51a4918039b3a447cf7463c319f9bf2e7acd9b46ddd88e325331ba2ecd49cfecfeac</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2011-10-19T10:38:02Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>christina@cslab.ece.ntua.gr</email><subject>CN=Christina Boumpouka,OU=ntua.gr,O=HellasGrid,C=GR</subject><issuer>CN=HellasGrid CA 2006,OU=Certification Authorities,O=HellasGrid,C=GR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>torque</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>centos</slterms:os>
+        <slterms:os-version>5.5</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>2.0</slterms:version>
+	<slterms:location>http://appliances.stratuslab.eu/images/base/centos-5.5-x86_64-base-torque/2.0/centos-5.5-x86_64-base-torque-2.0.img.gz</slterms:location>
+        <dcterms:compression/>
+        
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Christina Boumpouka</dcterms:creator>
+
+        <dcterms:created>2011-10-19T10:32:18Z</dcterms:created>
+        <dcterms:valid>2012-04-14T10:32:18Z</dcterms:valid>
+
+        <dcterms:description>Based on centos image with identifier F_f_Kf97uAYrvcji6jbXjpVOYW4. Image only has 'root' account configured. Only logins via ssh keys are allowed. The root disk has 5GB of space. Added packages for torque and maui. Torque is installed but not configured.</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>YvvGgaTocW7lMOmvJNb8nhZNmMM=</DigestValue></Reference></SignedInfo><SignatureValue>VO6V3gRxNFwumELn9RdrAsayGFVYvd1BpMKc1qv/RRs/6IlTT1EfaoDpnLXU2uVxbecoro+GC3aS
+BzquoOyZtb5MgiP5v48lbx4vIwWJb5nzXaH9jU+OKaJBNUF287eWYq4Yv93dxnroeIwYCS9t6Vjy
+MZnNG/UivGwIBx/gjMyPun2jPTiXGy872fVR1ahAKrJauXPhbJdp7/W33jqS4Xgg2M3gf20TBCq8
+TE4SMcwWraevjnpRQcy6oilYJ8xlb8ihP/CCc8sOUVfje33cailK61GPpyvic1Vv3Nt2ufEX+/6C
+bifSlNUER607RTyDeNN1l4ql87Ar89qzSp+rFA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFVTCCBD2gAwIBAgICBj8wDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCR1IxEzARBgNVBAoT
+CkhlbGxhc0dyaWQxIjAgBgNVBAsTGUNlcnRpZmljYXRpb24gQXV0aG9yaXRpZXMxGzAZBgNVBAMT
+EkhlbGxhc0dyaWQgQ0EgMjAwNjAeFw0xMDA4MjcxMjE0NTRaFw0xMTA4MjcxMjE0NTRaMFIxCzAJ
+BgNVBAYTAkdSMRMwEQYDVQQKEwpIZWxsYXNHcmlkMRAwDgYDVQQLEwdudHVhLmdyMRwwGgYDVQQD
+ExNDaHJpc3RpbmEgQm91bXBvdWthMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8gZr
+6xijrCLDO2phl5yZC5wSkDyaVdZUhDqW024J/VsJJf5eVP35eJBcsixK4l16Lth9bM2IkJ9g2YdH
+ULAwmmNCsJPp/yE66abcr1aYS+GDvNWqDDrwJodFGrce+GToYRM6KgWVrjMhMTrZck3L4OKaChBw
+YVC8odr1PYxg1tgkDCURMkhZ9PBxS1S70lRqVL059uiVYyCswkrzPxFY3Jy8Ep5GWUf6utUTvPYf
+E668bnPu8VZ7Xwchgew39+TkLBijNngKpYB2QiE/CWNs9MEgAvWt6KzM3abiRIPdxv/CCtN5/AZL
+wDQTw0DWh7KXAX9L6wxAjGjS/6b7FNIv0wIDAQABo4ICIjCCAh4wDAYDVR0TAQH/BAIwADARBglg
+hkgBhvhCAQEEBAMCBaAwDgYDVR0PAQH/BAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEF
+BQcDBDAdBgNVHQ4EFgQUyy6nSW/oYohCTWgTOjfHZuNin60wgZIGA1UdIwSBijCBh4AUCdfyXQvj
+Oh9s5EO+AT1PPLBmXiahbKRqMGgxCzAJBgNVBAYTAkdSMRMwEQYDVQQKEwpIZWxsYXNHcmlkMSIw
+IAYDVQQLExlDZXJ0aWZpY2F0aW9uIEF1dGhvcml0aWVzMSAwHgYDVQQDExdIZWxsYXNHcmlkIFJv
+b3QgQ0EgMjAwNoIBATAlBgNVHRIEHjAcgRpoZWxsYXNncmlkLWNhQGdyaWQuYXV0aC5ncjAmBgNV
+HREEHzAdgRtjaHJpc3RpbmFAY3NsYWIuZWNlLm50dWEuZ3IwfwYDVR0gBHgwdjB0Bg0rBgEEAYG6
+RQgBAQIAMGMwYQYIKwYBBQUHAgEWVWh0dHA6Ly93d3cuZ3JpZC5hdXRoLmdyL3BraS9oZWxsYXNn
+cmlkLWNhLTIwMDYvZG9jdW1lbnRzL2Nwcy9IZWxsYXNHcmlkLUNBLUNQLUNQUy5wZGYwSAYDVR0f
+BEEwPzA9oDugOYY3aHR0cDovL2NybC5ncmlkLmF1dGguZ3IvaGVsbGFzZ3JpZC1jYS0yMDA2Lzgy
+YjM2ZmNhLmNybDANBgkqhkiG9w0BAQUFAAOCAQEACxA1lgyOP6mHVmCjx8UF6qAzkDBiazqrVll/
+Dg+MpseuNBxdS8gn9dFUhblyvkhic4UUJln3FNw1g+j44Y67L8oEuqj+/f6/DPKGVFd99Pha7C59
+eiuocNIFgk/VGu7Wq4B0lCru2RHUZRWMMr+8qxMGZxv+8MP8Y/SFiLNyB68DbgvWj/hsOtUh/WmR
+GXj+OQt7KSfEsg3awLJjWKEbJxKpp8YeZtVxLewHara00KHnkT1ruD3/ihZIRXhvYGuuxQQ42jv5
+QCsScoIu0NvQ8mjTRaqpp78km4iq2cm9UTDlQ68TUPdmkoS2G6D6Edjxpjc8ZQ+6ZFNvvOsZ5iu5
+Vw==</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

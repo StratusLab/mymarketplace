@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#KAVlDIXpzzbt1pP95OhKq5fL82C">
+
+        <dcterms:identifier>KAVlDIXpzzbt1pP95OhKq5fL82C</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>7c5a39713cefa1bf66af548747ef5cb3</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>a015943217a73cdbb75a4ff793a12aae5f2fcd82</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>7f2de6ba032148b3181d68282977852bf77ad1c0ffd758b74232dec9158ce7f3</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>c93238e98a6dbbabbe572eb032fb81b8acd1d947ece53c34f0d07871487e596aea2017e288ca626e21eb244c10a026349545f201604d39019ee55a010de806cc</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2013-06-06T08:27:09Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>jane.tester@example.org</email><subject>CN=Jane Tester,OU=Testing Department,O=StratusLab Project,C=EU</subject><issuer>CN=Jane Tester,OU=Testing Department,O=StratusLab Project,C=EU</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>SL</slterms:os>
+        <slterms:os-version>6.4</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>1.1</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>pdisk:onehost-7.lal.in2p3.fr:8445:6d5fc46a-cfae-4dcb-8a81-0cc595667325</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Cecile Cavet</dcterms:creator>
+
+        <dcterms:created>2013-06-06T08:27:09Z</dcterms:created>
+        <dcterms:valid>2013-06-08T08:27:09Z</dcterms:valid>
+
+        <dcterms:title>Photo-z image.</dcterms:title>
+        <dcterms:description>Photoz image with Le PHARE original code to compute photometric redshift. Provides a generic user, the Pipelet software and the Photo-z pipeline.</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+        <slterms:disks-bus>virtio</slterms:disks-bus>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>JF2IN20MzjWl3Aj83iUDnQuarcE=</DigestValue></Reference></SignedInfo><SignatureValue>oEYJ4c+wXJqz+6EOZipBv/hzMOzpOsn4jd5liZxHCVWJHCnGZDeY/pmyoca/FG0xiiipJbeP7N8E
+OypV22eqLaIBDPwMEOmb9rzBK5VhOfAcOsHD2Cu+6NVEmBEyoUTDU8oq8fMoKb4iksQtoztgjtH3
+xYvWn4MHBBlgNA3ARt3oyEwbqMJbc5bGMjnHCIEcwsmBltjAZCjyggo50xEPlkcBfTEvq8AVHLNx
+McNgsGJDbmwNsJ8eoxvJZW4zfrmSWJ3Kmka7n8e6rqsRoaP/wKjSAbWagzaoCutF2xj5o2dxPiVt
+NlbedYX3fQMTR9P4N1EFky6wUuuqKEg3z53WYQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIERjCCAy6gAwIBAgIJAMlgSRXKwgoxMA0GCSqGSIb3DQEBBQUAMF0xCzAJBgNVBAYTAkVVMRsw
+GQYDVQQKExJTdHJhdHVzTGFiIFByb2plY3QxGzAZBgNVBAsTElRlc3RpbmcgRGVwYXJ0bWVudDEU
+MBIGA1UEAxMLSmFuZSBUZXN0ZXIwHhcNMTMwNjA2MDgyNzA4WhcNMTMwNjA4MDgyNzA4WjBdMQsw
+CQYDVQQGEwJFVTEbMBkGA1UEChMSU3RyYXR1c0xhYiBQcm9qZWN0MRswGQYDVQQLExJUZXN0aW5n
+IERlcGFydG1lbnQxFDASBgNVBAMTC0phbmUgVGVzdGVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAvtYqbE1r+KQ6Rq7db7Y9aX5ShwzPKILzTKa4PILuDoQiV8bRU8zrNYAL0Imp590h
+VhwDsaaUbMwpciZD8f7FiDlkGI1Folvc1pnV7bPHENtXaBc+ezQZwpF9NUt7BGCsA0mbIKAILx//
+YWL9vUTFssDMurH6yzfjD4JEYXz69xWY2ezAJDq+g9LgMEKm006iJjYO+ssF7TqOdkuHlGTs+d+s
+Q6g+KsvJWr/JcYEXLDazXrhDXhkFM8wiqPSFR6Sb3EtPvCTRUmktqiqmO3XbUb6XT9qZznjqTD9V
+PN7MtA9HLR30JbU85l9qpRygv3pdR5X+s6ck4xPkN+6wUI4NMwIDAQABo4IBBzCCAQMwCQYDVR0T
+BAIwADARBglghkgBhvhCAQEEBAMCBLAwDgYDVR0PAQH/BAQDAgP4MB0GA1UdDgQWBBSyS+0Wpgnd
+NKBW32pT6SWqWuGtAjCBjwYDVR0jBIGHMIGEgBSyS+0WpgndNKBW32pT6SWqWuGtAqFhpF8wXTEL
+MAkGA1UEBhMCRVUxGzAZBgNVBAoTElN0cmF0dXNMYWIgUHJvamVjdDEbMBkGA1UECxMSVGVzdGlu
+ZyBEZXBhcnRtZW50MRQwEgYDVQQDEwtKYW5lIFRlc3RlcoIJAMlgSRXKwgoxMCIGA1UdEQQbMBmB
+F2phbmUudGVzdGVyQGV4YW1wbGUub3JnMA0GCSqGSIb3DQEBBQUAA4IBAQA7j8rkQ8oYFHcbI1aA
+dSlu56RyL08NJ7qafc4NCtWHNFZh+CJl/M3/lXsfjCxiVSB5O3vwBdtNkgZv6hBnUllKi32WZ9Yo
+dF1jooWqzhnk4AdOG2Noa6IVq8VWdE1K/UF9IFiMyqeKzYq7UCRSZVmQ7Tkj/RSJgt9zzE0PcuQn
+5pb3alm4jRzwHEfKcIYZ/A6MdQUjFTLb5dfLfI926vtpQ8v94j0PfHiNEkDOxZ0d1ddsUQoUKUXv
+Z00ns68wbpL2zrd8Dp1kE00z2g+IwsmyuTtmKDDAiWL2+0NWM0eqZBJm0EhnbTTTx7UY4xrTmp3I
+fh/fFMxyRaQjq8TSVhn9</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

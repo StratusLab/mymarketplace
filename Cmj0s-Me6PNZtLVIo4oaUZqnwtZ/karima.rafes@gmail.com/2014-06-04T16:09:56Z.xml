@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#Cmj0s-Me6PNZtLVIo4oaUZqnwtZ">
+
+        <dcterms:identifier>Cmj0s-Me6PNZtLVIo4oaUZqnwtZ</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+                    <slreq:algorithm>MD5</slreq:algorithm>
+                                <slreq:value>2a838596acd2c338c4d1ae0f813a0614</slreq:value>
+                                        </slreq:checksum>
+                                                <slreq:checksum rdf:parseType="Resource">
+                                                            <slreq:algorithm>SHA-1</slreq:algorithm>
+                                                                        <slreq:value>29a3d2cf8c7ba3cd66d2d5228e2869466a9f0b59</slreq:value>
+                                                                                </slreq:checksum>
+                                                                                        <slreq:checksum rdf:parseType="Resource">
+                                                                                                    <slreq:algorithm>SHA-256</slreq:algorithm>
+                                                                                                                <slreq:value>2f98d961826da4786759c30aa48d0a37260688495de1a03ae83b830bb1367593</slreq:value>
+                                                                                                                        </slreq:checksum>
+                                                                                                                                <slreq:checksum rdf:parseType="Resource">
+                                                                                                                                            <slreq:algorithm>SHA-512</slreq:algorithm>
+                                                                                                                                                        <slreq:value>b26a7dd531c42ac6742e94d7404f01a42812ac8a160672e8b8b0c17ca0c24559b33976ecc1ea66be1deca320d1500e12d019eaefba369292894cac733042d7ff</slreq:value>
+                                                                                                                                                                </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2014-06-04T16:09:56Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>karima.rafes@gmail.com</email><subject>CN=Karima Rafes,C=FR</subject><issuer>CN=Karima Rafes,C=FR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+                <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>CentOS</slterms:os>
+                <slterms:os-version>6.5</slterms:os-version>
+                        <slterms:os-arch>x86_64</slterms:os-arch>
+                                <slterms:version>0</slterms:version>
+                                        <dcterms:compression>gz</dcterms:compression>
+                                                <slterms:location>pdisk:onehost-7.lal.in2p3.fr:8445:781af7c1-1a57-45c3-933d-9143a967e77c</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Karima Rafes</dcterms:creator>
+
+        <dcterms:created>2014-06-04T10:43:19Z</dcterms:created>
+                <dcterms:valid>2015-06-06T10:43:19Z</dcterms:valid>
+
+        <dcterms:title>Triplestore 4Store</dcterms:title>
+                <dcterms:description>Triplestore 4Store V1.1.5</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+                <slterms:disks-bus>virtio</slterms:disks-bus>
+
+        <dcterms:publisher>TeamGO3</dcterms:publisher>
+                
+    </rdf:Description>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>DqxEzok3dnwpB5R2PgPMSk7aNR8=</DigestValue></Reference></SignedInfo><SignatureValue>aZ8beuAeUk2VNVpnx7sT0M8Z15W9kt6MYRfUa07sYj6jWQl5hQW9DsbKXt86YE1bOJofbfo6ou8h
+2XDJ8cpFEVT3KwoH+CAuursHkraqF+RMNuzmkVwUX/7yAfWXgOfY4UBV4/hQnSXiwE1uMnDQu6lC
+cjpAeLGw4JHO5ZMJhOZaM+9o6er7EaRnBhijI/cwK0LAarjCXXZ5cOz+0y/FODf/FyAPpFqLac3z
+U6vKIXhuqPxNI5UisDXgipQYG0C+Cg08eKjotVAkPyLA19/zc4vEzS2ARmi1r7Jul8RpekcR9D0h
+p7s6C3Xyux4c21Rp8bNH+OZ1pVFwAxUSu7aEUQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDcjCCAlqgAwIBAgIJAPurHcS6rYkLMA0GCSqGSIb3DQEBBQUAMCQxCzAJBgNVBAYTAkZSMRUw
+EwYDVQQDEwxLYXJpbWEgUmFmZXMwHhcNMTQwNjA0MDcwMjU5WhcNMTUwNjA0MDcwMjU5WjAkMQsw
+CQYDVQQGEwJGUjEVMBMGA1UEAxMMS2FyaW1hIFJhZmVzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEA2foAZmkHXqP05eyImxcZ2lzRj1NMQtS2+KzpVJJyqHnNQG1lh22Oe0RynqZqNfTT
+EKFPO7Vp9BdrYLjh0/sKmGDGoRtQK7WDFYkLyuGT/n6qi/FZsBEsRhgZkTcxgLtu/hj4b8j5GIv8
+K5EcPQAbXoT3qTaDtD5wmbEBiPpJQrWAjcbD2nE/LwnCHSXE7iWLMMDXDhtY3D7wfb3vuYSvrBaj
+77je0ZV1XtvlexWG0Qf61LOmZ82Rj3P3Y9hkLE/4qEpJL3aBxCSI2phvqWEhxVZUt4I2+sodI6oM
+mbYtWLZwxUZ/eqXJp5pBLOZ0Be97dzauhdaOAbExWLed0Sl0WQIDAQABo4GmMIGjMAkGA1UdEwQC
+MAAwEQYJYIZIAYb4QgEBBAQDAgTwMA4GA1UdDwEB/wQEAwID+DAdBgNVHQ4EFgQUtA4OG8raAxJZ
+zhLVYNUDR54lkKcwVAYDVR0jBE0wS4AUtA4OG8raAxJZzhLVYNUDR54lkKehKKQmMCQxCzAJBgNV
+BAYTAkZSMRUwEwYDVQQDEwxLYXJpbWEgUmFmZXOCCQD7qx3Euq2JCzANBgkqhkiG9w0BAQUFAAOC
+AQEAfbaLcs2xiSym+H62C5x7YMXvXQ7zZe2U1m/mDhQKEQTyet4pCc36Ccn3wt/gCQNpfXrEByfl
+6cX1QZnPPLZLRUmQUM3jeUjxoNfA9WpHUzoCX4wvT+yilXERjHBCW+8G+PKMWVUznm1MebpszrSz
+XanU5xXArt1zCZ1tQ36N+QzeTIAJ0GE3qEjnz47qLEE6D6ARx2PECjv477AVUqvo1oW/gwkoKyrY
+8pTVc+iH57h+Jpwp3iZJ/602LMRTJR1/4q3avbohRxLCtLF5LclBwmlAp5QUSKlZP12euY/5EFuT
+6W17GW5HWKDM/m6Uq6CkUIjRp9cjpZbph4mp8qyTXg==</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

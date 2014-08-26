@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#MfBvZdern23TmFNhNlojZDI2WJr">
+
+        <dcterms:identifier>MfBvZdern23TmFNhNlojZDI2WJr</dcterms:identifier>
+
+        <slreq:bytes>4294967296</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>195f372aa9d3d567e3cee3e6353c11b3</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>c7c1bd975eae7db74e614d84d9688d90c8d9626b</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>0fa00580ab43e19d82714e751739716ee970439fd79cef7b302714b4bfad14cb</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>36a9659087a992c773920d54199fd0151523a1fec2de02adb91a3fcc5e8f119ffaae896fb8c5798161347a481104327a365674b34cd7e29d3afbfbaf8fff2056</slreq:value>
+        </slreq:checksum>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>ScientificLinux</slterms:os>
+        <slterms:os-version>5.7</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>ver-1.0</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://www2.ifi.auf.org/data/ScientificLinux.img.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Dao Van Toan</dcterms:creator>
+
+        <dcterms:created>2012-06-25T10:20:44Z</dcterms:created>
+        <dcterms:valid>2012-12-20T10:20:44Z</dcterms:valid>
+
+        <dcterms:description>A base image of the OS ScientificLinux to test the StratusLab.Configured only with a root user. The firewall in the image is disabled, IPv6 is enabled, and SELinux disabled. Uses the standard StratusLab contextualization mechanisms. A swap volume is expected to be provided on /dev/sdb. </dcterms:description>
+
+        <slterms:hypervisor>Virtualbox</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    <slreq:endorsement parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-06-25T14:18:21Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>dvtoan@ifi.edu.vn</email><subject>CN=Toan Dao Van 166701,OU=GRID,O=AP,C=TW</subject><issuer>CN=Academia Sinica Grid Computing Certification Authority Mercury,O=AS,C=TW</issuer></endorser></slreq:endorsement><slterms:deprecated>This image has been deprecated</slterms:deprecated></rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>CzXaVEE9Jfyk9YJ1u9ciDcuQp8c=</DigestValue></Reference></SignedInfo><SignatureValue>hga/1LIM0Svn1wCfN12f/HpGBNs5Ru0lJVydBZAuGwltIABt+Kkqorepe9njo4UUcu6U8tXuTH1o
+ai2TlzFxzcJd2MxgN3OuwdwjFfHFr5o8C76XQLuhTy1ViAbzPVEG/+HuHZMMlyFlFodxTPmAiozn
+ynpW5V85yN0WR3hb/rCGNLhgeedbe0qg/e2gCihnnVd9uawQc1VmB/zkAWo9ebU46BQhF31wZFSV
+71j56/jnbu05pJLOW+qeQmrR0mnkBZSKJQe8tQrr5+9QqT2GQQjg3Qh+uqRYKAFyaQBmcywd6FWY
+O9g5iaFjmsLf3kJJTuCQSS7rOmq0dOvNCxpMmg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFADCCA+igAwIBAgICC0cwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCVFcxCzAJBgNVBAoT
+AkFTMUcwRQYDVQQDEz5BY2FkZW1pYSBTaW5pY2EgR3JpZCBDb21wdXRpbmcgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkgTWVyY3VyeTAeFw0xMjA1MzEwOTQyMzBaFw0xMzA1MzEwOTQyMzBaMEcxCzAJ
+BgNVBAYTAlRXMQswCQYDVQQKEwJBUDENMAsGA1UECxMER1JJRDEcMBoGA1UEAxMTVG9hbiBEYW8g
+VmFuIDE2NjcwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM6NbiyBApcibrGRF+PR
+LqQUFQ2Cdmeuh1W/orN3vmdsqGJTcisjYi1Bk369YX1iF0nhQ4xzMPKCGyTntxOLxvuQUG4vSeU4
+D4CGc1fPfxHIhtUeCo961D9F+MlznK3+XygTYNWTOCLQ2xn6kXC/x5q4QiCwws+YHOx9lMNuJ870
+JroCAkSwJCUwdvDXnpZCkrvZak6k9e4IDWbC3AZuFfEWyjpg27NGx2CKUdEZFjzqSLpX4ySAtLb9
+I19qUFsV0crG239kpSV2OYIak0HUHLBs4LFpPINA8OyHJjIeFPq8aLWyN9Xx1NFZHCnPQR1yWWp1
+qeOgqkVgnHsb+CGwRrkCAwEAAaOCAdgwggHUMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgP4MB0G
+A1UdDgQWBBT9ZKechNq8zOs/0K6lmwK10Nn5fTCBjQYDVR0jBIGFMIGCgBR/TZcVl7SNX8DXd6sx
+dtBfa+JbMKFnpGUwYzELMAkGA1UEBhMCVFcxCzAJBgNVBAoTAkFTMUcwRQYDVQQDEz5BY2FkZW1p
+YSBTaW5pY2EgR3JpZCBDb21wdXRpbmcgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgTWVyY3VyeYIB
+ADBDBgNVHRIEPDA6gRlhc2djY2FAZ3JpZC5zaW5pY2EuZWR1LnR3hh1odHRwOi8vY2EuZ3JpZC5z
+aW5pY2EuZWR1LnR3LzAcBgNVHREEFTATgRFkdnRvYW5AaWZpLmVkdS52bjBXBgNVHSAEUDBOMA0G
+CysGAQQBri8KAQIBMD0GCiqGSIb3TAUCAgEwLzAtBggrBgEFBQcCARYhaHR0cDovL2NhLmdyaWQu
+c2luaWNhLmVkdS50dy9DUFMvMEwGA1UdHwRFMEMwQaA/oD2GO2h0dHA6Ly9jYS5ncmlkLnNpbmlj
+YS5lZHUudHcvcHVibGljYXRpb24vQ1JML0FTR0NDQS1jcmwuZGVyMA0GCSqGSIb3DQEBBQUAA4IB
+AQB48Ow5w9pphbaNv+fe3VTyP0jBFZztpgA5PzgzA0HgRPXaGkhpi/BCJ/gNomQz+zlvF1NLybyE
+6aXviVOe25C6oobcngvdtAxCtU0xYBVKu+ewupYCE5PVevfqpOxJoZM9zq4dvgjpXBE88dotvaGO
+EWxhX3dcLRpzJxC+nBMWx50KUkrWwGcpjKM9TXygJDaoDfTByj6yl9bsQrOdGa1ZOuGTEH1Y/CFw
+SomGsndGXEVMgfvhnnzhJgR4MdREe0Wq6GLFjJCYi6V7BENqnSJxTtkRRfaqnGVHqM7FqjpZ1MTv
+6j1KP57OJIzjo8tJRqE4kfNqI3BYeZDELLNEvvQg</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

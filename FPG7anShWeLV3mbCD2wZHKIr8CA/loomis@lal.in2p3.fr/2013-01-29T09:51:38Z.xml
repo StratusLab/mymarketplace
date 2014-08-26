@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#FPG7anShWeLV3mbCD2wZHKIr8CA">
+
+        <dcterms:identifier>FPG7anShWeLV3mbCD2wZHKIr8CA</dcterms:identifier>
+
+        <slreq:bytes>9663676416</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>b31a0aa4a7194ef97dcafe6ba5759558</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>53c6eda9d285678b57799b083db0647288afc080</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>ca4f028bd8f0cf4baecf135a0fdb830b723d79cbe8cc5d4010775fdabca1caa8</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>12547753ad24c7875bd656d8699413f32b1503b13bef3924fc279767456987a8c18ebd796e617009ad7a121d78500e24dcfd5578d427748d829eaca36ea898b6</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2013-01-29T09:51:38Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>loomis@lal.in2p3.fr</email><subject>CN=Charles Loomis,OU=LAL,O=CNRS,C=FR,O=GRID-FR</subject><issuer>CN=GRID2-FR,O=CNRS,C=FR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>ScientificLinux</slterms:os>
+        <slterms:os-version>5.5</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>2.6.0-4-1</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://cernvm.cern.ch/releases/17/cernvm-batch-node-2.6.0-4-1-x86_64.hdd.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>CernVM</dcterms:creator>
+
+        <dcterms:created>2013-01-29T09:37:23Z</dcterms:created>
+        <dcterms:valid>2013-07-26T09:37:23Z</dcterms:valid>
+
+        <dcterms:title>CernVM Batch Node</dcterms:title>
+        <dcterms:description>standard CernVM batch node for QEMU, KVM</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+        <slterms:disks-bus>ide</slterms:disks-bus>
+
+        <dcterms:publisher>CernVM</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>C/MII01J8WCjaheLiAl7oN/43lA=</DigestValue></Reference></SignedInfo><SignatureValue>BViTMlBaq4aXS/KxitMwQz4jFTFE3+TyrlPGaYi3JmW8qxgdE7TfgRJhMVr9hZJumgfM1tzRwsu6
+dG9wyriNXu+WLr7go+PCrfpimEzy1ha1VUT2PmGMxAp6FDC+MPHBxP7Y4jwEYT1lWF0Ti9Oy5Q4E
+Km4bH9oCZnLPLNSScMEn3vQzyzxpyJNlya9t4jP1pEoOM4PvUcFt0qwa5ctaIXV9Cx8+LcKW2N/2
+t4+1+JIUzSG9WxRyuV1XzJokP3aFIVTGvTFRp3jqmQaCRMvy4L1Vk6jhC0L9Ao87d14wIAHqCRMW
+yZDAMd+efDwYV/TH5q9FfpxJhiPuV0nU2cF8sA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEwTCCA6mgAwIBAgICHx4wDQYJKoZIhvcNAQEFBQAwLzELMAkGA1UEBhMCRlIxDTALBgNVBAoT
+BENOUlMxETAPBgNVBAMTCEdSSUQyLUZSMB4XDTEyMTIwNDEwNDY0MVoXDTEzMTIwNDEwNDY0MVow
+VTEQMA4GA1UEChMHR1JJRC1GUjELMAkGA1UEBhMCRlIxDTALBgNVBAoTBENOUlMxDDAKBgNVBAsT
+A0xBTDEXMBUGA1UEAxMOQ2hhcmxlcyBMb29taXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCquCm8RX/NgaOBerpz4IzhtOxUsu4iA8aN1jxEr3yeqLD+kEDIiPXKGCYtMzbASJLC1I9N
+SMIjn9w4EyBysUgLwciAX5c1JpXN/WxsgpFVHNbYilX9pYmeKt06TLFogXSqQZSKTcnivUK+IG8G
+UwjVmfuoLiB2L4mXuHkB5mmd151bXSueteX9tHOUldon2eEt4zTQ6Nva/zO6dunKkMWOSF4GHq6U
+0263rsHzrbNDR/ZRodTHL5QCtJcs0twzgaSQKdrU1fBk1VVXVtw3CUxaStsa/9jalBEwgHzKWqdv
+8TBV8yx3X/Y8TK2HqTleXC3ffoh1ZkFVfuD0EUrZ/KyJAgMBAAGjggG/MIIBuzAMBgNVHRMBAf8E
+AjAAMBEGCWCGSAGG+EIBAQQEAwIEsDAOBgNVHQ8BAf8EBAMCA/gwZAYJYIZIAYb4QgENBFcWVUNl
+cnRpZmljYXRlIEdSSUQyLUZSLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgc2VlIGh0dHA6Ly9pZ2Mu
+c2VydmljZXMuY25ycy5mci9HUklEMi1GUi8wHQYDVR0OBBYEFB0cfbUq0FZmDw33jGwAzmPM9ZfI
+MFwGA1UdIwRVMFOAFCeWSCfuIbbyr7Etffr310glcJWToTikNjA0MQswCQYDVQQGEwJGUjENMAsG
+A1UEChMEQ05SUzEWMBQGA1UEAxMNQ05SUzItUHJvamV0c4IBAzAnBgNVHSAEIDAeMA4GDCsGAQQB
+1D0BAQgCATAMBgoqhkiG90wFAgIBMB4GA1UdEQQXMBWBE2xvb21pc0BsYWwuaW4ycDMuZnIwQQYD
+VR0fBDowODA2oDSgMoYwaHR0cDovL2NybHMuc2VydmljZXMuY25ycy5mci9HUklEMi1GUi9nZXRk
+ZXIuY3JsMBkGCCsGAQQBu2IBBA11bmljb3JlQ2xpZW50MA0GCSqGSIb3DQEBBQUAA4IBAQB0Fq87
+i0CkNRbzGPvHXGkL/iqHH/zqasNZ3ElFNLgTNmymk1KQLc0CD6TtJPm9VI9J0xDaFTk3xQQO8KJ8
+RW1mc7XTOXFt1/U+3S798S23LO+R6HWkCTAOe/FQ5UocPsUckMeNJbrOEpMJRLK6rDohgWi2n+g6
+Yc3hqfe+QFdYsb2v+N+W0JPX1boeMOT7peMmYb/couiNBxfuuLAADpi0kLgB8y0fNiD4TwKxDS4b
+DVWQhg320kJFqaeeFrCMo7EcCOJ7VQ0gnWNACs+L0vwSaSFoeLWatApuKyN5djHJNi9wbP51XnVr
+4YeAGxNg/uRExPwUYYkC0w79p6kEvdLs</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

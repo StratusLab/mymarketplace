@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#LSWPmKkR8B7m0ud5MSheq9Hqbdn">
+
+        <dcterms:identifier>LSWPmKkR8B7m0ud5MSheq9Hqbdn</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>0476484e58358f190a82cbb23051a710</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>b4963e62a447c07b9b4b9de4c4a17aaf47a9b767</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>ca821d628f2fe4d85fb7956bf4549144512f5b7bd3893cf0115fad60a9ccb1b0</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>fbbc8da1b4761cdb21664541318c5afe7d6da4bcc6ac9b25924f1d916343370482ff0c543dc54bd6028ae5c474a4542bd7ee977ba5f6af035f8ee4910358cfd6</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2013-12-12T18:49:46Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>adrian.colesa@cs.utcluj.ro</email><subject>CN=Adrian Colesa,O=UTCluj,DC=RomanianGRID,DC=RO</subject><issuer>CN=RomanianGRID CA,OU=Certification Authority,O=ROSA,DC=RomanianGRID,DC=RO</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>IGE3.2-GT5-packages-configured</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>IGE3.2-ubuntu</slterms:os>
+        <slterms:os-version>12.04</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>2.1.0</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://igeservices.utcluj.ro:81/ige-gt-appliances/basic/ige-configured/ige-packages/ubuntu/ubuntu-12.04-x86_64-gt5-ige3.2-5G-2.1.0.img.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator/>
+
+        <dcterms:created>2013-12-12T13:21:01Z</dcterms:created>
+        <dcterms:valid>2014-06-08T13:21:01Z</dcterms:valid>
+
+        <dcterms:title/>
+        <dcterms:description>The machine contains Globus Toolkit (GT) 5.2.4 components installed from IGE v3.2 repositories. We executed the following steps:
+1. Configured the IGE repositories as sources for OS packages. 
+See the file "/etc/apt/sources.list.d/IGE.list" for Debian-based distributions, or "/etc/yum.repos.d/IGE.repo" for RHEL based distributions.
+2. Installed the GridFTP component (client and server) from the IGE repositories, i.e. the "ige-meta-globus-gridftp" package.
+3. Installed the GSI-OpenSSH component (client and server) from the IGE repositories, i.e. the "ige-meta-globus-gsissh" package.
+4. Installed the GRAM/Gatekeeper component (client and server) from the IGE repositories, i.e. the "ige-meta-globus-gram5" package.
+5. Configured the eugridpma/nordugrid repositories as sources for OS packages.
+See the file "/etc/apt/sources.list.d/nordugrid.list" for Debian-based distributions, or "/etc/yum.repos.d/eugridpma.list" for RHEL based distributions. 
+6. Installed the certificates of different reknown CAs included in the "ca-policy-igtf-classic/ca_policy_igtf-classic" package. 
+7. Installed the fetch-crl utility included in the "fetch-crl" package.
+There is no extra configuration of the installed GT services, but the default one comming with the package. 
+There is no host/user certificate installed. 
+As a consequence, GridFTP server and gsi-openssh servers are running, but not functional until the host certificate will be installed. The gatekeeper is not running, while it checks for host certificate at its start.</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+        <slterms:disks-bus>ide</slterms:disks-bus>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>emIjaLj4c61rF2PhYNV9LqQn/9E=</DigestValue></Reference></SignedInfo><SignatureValue>APVrlbsBHRSvtPRvclbP8tPs8ldJcOQNZw3lf8FD1R6T/JkEPp+DfqnVxLqWXNp+rpZe1Armmklt
+dbuOFc1q+5mvcygqJQN2tyPQRTTNKXF4+9PvBzuNBV8a8nFMDRHhku7gWNXnVt5AY3Cv+xjJa7Ew
+9yNEhN7X2ky491yUGuN03vjQHvdhOD0rN8gz00e7TGCT0NfLBl0R4WPZMLBbGleHqT5ibG3YJtUR
+lOCKCGWs1TgK47Mayb3jWeRJfiXVQFc1EjdXAlTmYLK1esB0fuIdNmRQH5kvD7tb7qld6UjPQap1
+7NNSlSU74C/OqP7rRLpaV3OfASoazY1OHws0DQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIE+DCCA+CgAwIBAgICA9wwDQYJKoZIhvcNAQEFBQAwfTESMBAGCgmSJomT8ixkARkTAlJPMRww
+GgYKCZImiZPyLGQBGRMMUm9tYW5pYW5HUklEMQ0wCwYDVQQKEwRST1NBMSAwHgYDVQQLExdDZXJ0
+aWZpY2F0aW9uIEF1dGhvcml0eTEYMBYGA1UEAxMPUm9tYW5pYW5HUklEIENBMB4XDTEzMTIwOTEz
+NTcwNFoXDTE0MTIwOTEzNTcwNFowWzESMBAGCgmSJomT8ixkARkWAlJPMRwwGgYKCZImiZPyLGQB
+GRYMUm9tYW5pYW5HUklEMQ8wDQYDVQQKDAZVVENsdWoxFjAUBgNVBAMMDUFkcmlhbiBDb2xlc2Ew
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNADFYgFE61CciQATzr34wHc9eWv9z2pc1
+M5Y00AKhCC4Pim/rbOoYBgw6N6TTxDElYk2ShVYwMGw6uWebOoCpzkjyG/qBA3zwdMwuZcQQwoDR
+HT6nhLf21rL0vsSP1lbt/ZVko/RJSKqFNC/ZRX+ovz5n0PnNkWvXjHLsEbKS5iUUKRxXAevWakgM
+jcolw0vVjyKrnS8HvOhiWyQtFHd4+Y4EltgNNyTae+vL4aC/bmUB3oawCAkysZHyUQA2ke+mD8Rx
+LZtDp5PMIGe/FeG4QdhJ5l5fmBNVS+owOStKsgvSb4JqrzL0LqK9m82KTnbbTwQFtNQACkh1r0lh
+kwTrAgMBAAGjggGiMIIBnjAMBgNVHRMBAf8EAjAAMBEGCWCGSAGG+EIBAQQEAwIFoDAOBgNVHQ8B
+Af8EBAMCBLAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBQsCqMw/qtA
+51+koTEEjnNLEAkXZDAfBgNVHSMEGDAWgBR/EM1cbqzKaxIL4KmHiBGVvDAXaDBxBgNVHSAEajBo
+MFgGDisGAQQBgdNfCQECAQIAMEYwRAYIKwYBBQUHAgEWOGh0dHA6Ly93d3cucm9tYW5pYW5ncmlk
+LnJvL2RvY3MvUm9tYW5pYW5HUklEX0NBX3YyLjAucGRmMAwGCiqGSIb3TAUCAgEwOgYDVR0fBDMw
+MTAvoC2gK4YpaHR0cDovL3d3dy5yb21hbmlhbmdyaWQucm8vY3JsL2NybC12Mi5kZXIwNgYDVR0S
+BC8wLYEPZ3JpZC1jYUByb3NhLnJvhhpodHRwOi8vd3d3LnJvbWFuaWFuZ3JpZC5ybzAlBgNVHREE
+HjAcgRphZHJpYW4uY29sZXNhQGNzLnV0Y2x1ai5ybzANBgkqhkiG9w0BAQUFAAOCAQEAVO7f7Ox8
+O8Qv2fiQSJMBRAkjSBDyIqPAEvQuea+6NAlJEDdQBUzXnpsy/5FW7yo3ugPlu2APWq4Y/rIf5ZpT
+ALsUUJUy+3bIxRjXv221zgp0wZUVSUs94/WLhVATSYmMBXEUfCsuBJzGQzRrUujrI0ANkmcr6xh+
+UIiM5XNJ35iXPv3RUCfJm5Ph4K6RDBE7xu2qufSZMQE01L8soNgjFziD883D80QdjibtdNRWAioc
+RckIdV5q72PjeOi5GhQuwaR/RUiJlj6Ps1WlxMv/Het7MiEf52Ha+6i+pM3GkwhS146e06DmxAit
+kbHtEvXOb+OqKOVJEOLCypJxll+PAg==</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#Aq2UgDoFVOSvZw1tz0PoL8Z2af8">
+
+        <dcterms:identifier>Aq2UgDoFVOSvZw1tz0PoL8Z2af8</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>f1cf504333fa0b1042adf4e00885fe30</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>0ab65200e8155392bd9c35b73d0fa0bf19d9a7fc</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>f6bcf60d3cd9f91a77601242e2deccbc620d8b95f926a8b0d89932792ada200c</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>b92502cbcdd5bf313e305421c4fc036a7e3d2f3a4f39730fd24e8bdc572a1bd8a0f1c708ff6ef8cd5bbdc284e69e7d64e7948182f5f8906c9a0205fcf3664593</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-09-16T20:15:31Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>adrian.colesa@cs.utcluj.ro</email><subject>CN=Adrian Colesa,O=UTCluj,DC=RomanianGRID,DC=RO</subject><issuer>CN=RomanianGRID CA,OU=Certification Authority,O=ROSA,DC=RomanianGRID,DC=RO</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>IGE2.1-GRIDFTP-packages-configured</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>IGE2.1-ubuntu</slterms:os>
+        <slterms:os-version>12.04</slterms:os-version>
+        <slterms:os-arch>i686</slterms:os-arch>
+        <slterms:version>1.0.0</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://igeservices.utcluj.ro/ige-gt-appliances/basic/ige-configured/ige-packages/ubuntu/ubuntu-12.04-i686-gridftp-ige2.1-5G-1.0.0.img.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator/>
+
+        <dcterms:created>2012-09-16T20:15:30Z</dcterms:created>
+        <dcterms:valid>2013-03-13T20:15:30Z</dcterms:valid>
+
+        <dcterms:description>The machine contains Globus Toolkit (GT) 5.2 components installed from IGE v2.1 repositories. We executed the following steps:
+1. Configured the IGE repositories as sources for OS packages. 
+See the file "/etc/apt/sources.list.d/IGE.list" for Debian-based distributions, or "/etc/yum.repos.d/IGE.repo" for RHEL based distributions.
+2. Installed the GridFTP component (client and server) from the IGE repositories, i.e. the "ige-meta-globus-gridftp" package.
+5. Configured the eugridpma/nordugrid repositories as sources for OS packages.
+See the file "/etc/apt/sources.list.d/nordugrid.list" for Debian-based distributions, or "/etc/yum.repos.d/eugridpma.list" for RHEL based distributions. 
+6. Installed the certificates of different reknown CAs included in the "ca-policy-igtf-classic/ca_policy_igtf-classic" package. 
+7. Installed the fetch-crl utility included in the "fetch-crl" package.
+There is no extra configuration of the installed GT services, but the default one comming with the package. 
+There is no host/user certificate installed. 
+As a consequence, GridFTP server is running, but not functional until the host certificate will be installed. </dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>jQKCmRCMXujdLuUnauQrUCjQro4=</DigestValue></Reference></SignedInfo><SignatureValue>egMKLYnjdwjVwlEuwj2OyGeSivmUDG8CNLbngRi2drhR6t0D7qqpffZWysvaMEQsbfs4z/KW49LB
+sgkppebZkKW7NMyqqMzXfpKyh55KWGUrGDJk6RbJTpznI2wmmSFOgCxY22aXOxmDsvrIO9FFyRlO
+z4c+tOX7v2k7Rd01ROM=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEZjCCA06gAwIBAgICAdswDQYJKoZIhvcNAQEFBQAwfTESMBAGCgmSJomT8ixkARkTAlJPMRww
+GgYKCZImiZPyLGQBGRMMUm9tYW5pYW5HUklEMQ0wCwYDVQQKEwRST1NBMSAwHgYDVQQLExdDZXJ0
+aWZpY2F0aW9uIEF1dGhvcml0eTEYMBYGA1UEAxMPUm9tYW5pYW5HUklEIENBMB4XDTEwMTEwMzE0
+MjgwMVoXDTExMTEwMzE0MjgwMVowWzESMBAGCgmSJomT8ixkARkWAlJPMRwwGgYKCZImiZPyLGQB
+GRYMUm9tYW5pYW5HUklEMQ8wDQYDVQQKEwZVVENsdWoxFjAUBgNVBAMTDUFkcmlhbiBDb2xlc2Ew
+gZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKegnlX6K3S0uPwHNxBy5rAxcX/IaNq+vdJY9rM+
+3Dek0HQWtqquw5spx5yqlcyRP7gFZdmeoCHT9C5Fg72eSaDfroA1Uq70vypmEL0cwsDhV0Jx5ghs
+i+MXf9bi569kiwlwe/OeQUE5FXvLxqfYb47qXF+6EGshm/+fea5iUfPvAgMBAAGjggGUMIIBkDAM
+BgNVHRMBAf8EAjAAMBEGCWCGSAGG+EIBAQQEAwIFoDAOBgNVHQ8BAf8EBAMCBLAwHQYDVR0lBBYw
+FAYIKwYBBQUHAwIGCCsGAQUFBwMEMB0GA1UdDgQWBBTHuK/5zCkIbGtsF8KmtP0EbsCAzDAfBgNV
+HSMEGDAWgBR/EM1cbqzKaxIL4KmHiBGVvDAXaDBjBgNVHSAEXDBaMFgGDisGAQQBgdNfCQECAQEE
+MEYwRAYIKwYBBQUHAgEWOGh0dHA6Ly93d3cucm9tYW5pYW5ncmlkLnJvL2RvY3MvUm9tYW5pYW5H
+UklEX0NBX3YxLjQucGRmMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly93d3cucm9tYW5pYW5ncmlk
+LnJvL2NybC9jcmwtdjIuZGVyMDYGA1UdEgQvMC2BD2dyaWQtY2FAcm9zYS5yb4YaaHR0cDovL3d3
+dy5yb21hbmlhbmdyaWQucm8wJQYDVR0RBB4wHIEaYWRyaWFuLmNvbGVzYUBjcy51dGNsdWoucm8w
+DQYJKoZIhvcNAQEFBQADggEBAGg4+8Xp70HryMWYI1QYqvMD27KFeQY/EcTRajcybvcE6V1Z4+1c
+2fRU5qQIg5tAUSLQVjQlTAUCkXo5YrEAPaDXgCKVhN1q0j1RnvAiBUz9o8tTOvLMCXHU2ehujc/+
+NF+S4/eov+2h5LUG+2BOi3l8f6RJz8dKurPvE3ViU7tp1GLEZGujMSJGbWnB/u8NQ1qr5wm3z5i9
+lYT/Bba2ZuZVQHk2fsa7wqbYlRfEdnp/pPkdg1HipGf0tLqlCohK4xwl5ES1LUpoMzTccTCuzWO3
+XwD+bk7Et4HyN77Wp7wYhIt+Y7T0wteXtWGxyNrjuxd9bRp723Mh2a0fKFR/YA4=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://mp.stratuslab.eu/slreq#" xmlns:ns3="http://mp.stratuslab.eu/slterms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#ArCnG4gBogiprglBUdG6V8YX20y">
+
+        <ns1:identifier>ArCnG4gBogiprglBUdG6V8YX20y</ns1:identifier>
+
+        <ns2:bytes>5120000000</ns2:bytes>
+
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>MD5</ns2:algorithm>
+            <ns2:value>6ab6a7aff2688d3e6b373437521018c2</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-1</ns2:algorithm>
+            <ns2:value>0ac29c6e20068822a6b825054746e95f185f6d32</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-256</ns2:algorithm>
+            <ns2:value>f60e20a7d1556cbcf43cb46a92b1769b338f26fe921a3a946b36f5a54a75019c</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-512</ns2:algorithm>
+            <ns2:value>9e4cc5562779850107eea8241ae49ebf5238a3ddd7b9b1cab90e1d32836445b76e2b090f909d0d5ff61fa8ff0c4bb4ebc7db39a274c5e6f0c0e2a44196b771b9</ns2:value>
+        </ns2:checksum>
+
+        <ns2:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2011-07-18T22:42:30Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>Konstantin.Skaburskas@cern.ch</email><subject>CN=Konstantin Skaburskas,CN=658461,CN=kskaburs,OU=Users,OU=Organic Units,DC=cern,DC=ch</subject><issuer>CN=CERN Trusted Certification Authority,DC=cern,DC=ch</issuer></endorser></ns2:endorsement>
+
+        <ns1:type>base</ns1:type>
+        <ns3:kind>machine</ns3:kind>
+
+        <ns3:os>fedora</ns3:os>
+        <ns3:os-version>14.0</ns3:os-version>
+        <ns3:os-arch>x86_64</ns3:os-arch>
+        <ns3:version>1.0</ns3:version>
+        <ns1:compression>gz</ns1:compression>
+        <ns3:location>http://appliances.stratuslab.eu/images/base/fedora-14.0-x86_64-base/1.0/fedora-14.0-x86_64-base-1.0.img.gz</ns3:location>
+
+        <ns1:format>raw</ns1:format>
+
+        <ns1:creator>Konstantin Skaburskas</ns1:creator>
+
+        <ns1:created>2011-07-18T19:48:15Z</ns1:created>
+        <ns1:valid>2012-01-12T19:48:15Z</ns1:valid>
+
+        <ns1:description>Minimal fedora14 image. Uses standard StratusLab contextualization. Image has only 'root' account configured. Only logins via ssh keys are allowed. Swap on hdb. Context left mounted: /mnt/stratuslab/context.sh. Supports ACPI.</ns1:description>
+
+        <ns3:hypervisor>kvm</ns3:hypervisor>
+
+        <ns1:publisher>StratusLab</ns1:publisher>
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>EOZ7U/J9H5PQ90yGsmP5m4Uv1I8=</DigestValue></Reference></SignedInfo><SignatureValue>PCQEkJrojtKzSH9hRbDLteFcHOFYAPf5/oCKRtgkzUekgy61Mq1NALfWr8sG4raqCvZZ4ShvG5Y9
+Hg8KnRyaNMlLnqzIBkz3O/hSGYPyOg7NKd6q7XI0ixLVyJgJfU+fydrZp+qIU+LjGOzLGIqvdPJs
+kDpd7DsQgcdL7w4pvToeC5rVxXrW56+aUoO5ZFVx2CUdU/a2Un7pJYowU/I2TeJ04vwGhhsj3Idc
+fdehxxnOkW8YEHYSLmwMBPsbbfyjSotdz7mPlv0VPuke6PbXAS4V4Wn+zFPh+W6+6K5F3c2Z0VaM
+pCP0ZQ6aejyycW6kIxjzhVGc1II1LGVOcA3ziw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIHsTCCBpmgAwIBAgIKEwqZQwACAABzZzANBgkqhkiG9w0BAQUFADBZMRIwEAYKCZImiZPyLGQB
+GRYCY2gxFDASBgoJkiaJk/IsZAEZFgRjZXJuMS0wKwYDVQQDEyRDRVJOIFRydXN0ZWQgQ2VydGlm
+aWNhdGlvbiBBdXRob3JpdHkwHhcNMTAxMDI1MTIwOTMxWhcNMTExMDI1MTIwOTMxWjCBljESMBAG
+CgmSJomT8ixkARkWAmNoMRQwEgYKCZImiZPyLGQBGRYEY2VybjEWMBQGA1UECxMNT3JnYW5pYyBV
+bml0czEOMAwGA1UECxMFVXNlcnMxETAPBgNVBAMTCGtza2FidXJzMQ8wDQYDVQQDEwY2NTg0NjEx
+HjAcBgNVBAMTFUtvbnN0YW50aW4gU2thYnVyc2thczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAMc9PRkUXPVz6UAFdgTAMXjN2Cg4LY1I3VpINwMRZBWazmzPBhS74FGYYtYJv86h2KJh
+zR4P6P85RDFpsQRIhUguzf3Ye17q4GY2AoLE8JvZhRrDMwThIY+tbKsNLFVdGgANM2nIwovmvIzU
+sUB6w90M8h2rkIZL17+c20hpxkbR7sM+3JKIvzEQM5PZnX8u3NfDeECOP9v/VfyStnZV0EipDZy/
+Wd0C6oTeX1JTnTB3b3hX3TYZe0aWmC2D2SCTLRH0wVEjli/mhv1hAitcKgUFfxZwhRh4qy1AQ1PP
+ykvwuOKl2xfO5DfaRAroABmu1N7lpw2Rtxqqr/xFQkXXYFUCAwEAAaOCBDswggQ3MB0GA1UdDgQW
+BBT55cSmqoRBpP7njsjoAOltn2zGGzAfBgNVHSMEGDAWgBSYzJLQRjA2jLDtmA1yUalHTN2+ITCC
+ATQGA1UdHwSCASswggEnMIIBI6CCAR+gggEbhkdodHRwOi8vY2EuY2Vybi5jaC9jYS9jcmwvQ0VS
+TiUyMFRydXN0ZWQlMjBDZXJ0aWZpY2F0aW9uJTIwQXV0aG9yaXR5LmNybIaBz2xkYXA6Ly8vQ049
+Q0VSTiUyMFRydXN0ZWQlMjBDZXJ0aWZpY2F0aW9uJTIwQXV0aG9yaXR5LENOPWNlcm5wa2kwMSxD
+Tj1DRFAsQ049UHVibGljJTIwS2V5JTIwU2VydmljZXMsQ049U2VydmljZXMsQ049Q29uZmlndXJh
+dGlvbixEQz1jZXJuLERDPWNoP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q/YmFzZT9vYmplY3RD
+bGFzcz1jUkxEaXN0cmlidXRpb25Qb2ludDCCAUQGCCsGAQUFBwEBBIIBNjCCATIwaAYIKwYBBQUH
+MAKGXGh0dHA6Ly9jYS5jZXJuLmNoL2NhL2NybC9jZXJucGtpMDEuY2Vybi5jaF9DRVJOJTIwVHJ1
+c3RlZCUyMENlcnRpZmljYXRpb24lMjBBdXRob3JpdHkoMikuY3J0MIHFBggrBgEFBQcwAoaBuGxk
+YXA6Ly8vQ049Q0VSTiUyMFRydXN0ZWQlMjBDZXJ0aWZpY2F0aW9uJTIwQXV0aG9yaXR5LENOPUFJ
+QSxDTj1QdWJsaWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxDTj1Db25maWd1cmF0aW9u
+LERDPWNlcm4sREM9Y2g/Y0FDZXJ0aWZpY2F0ZT9iYXNlP29iamVjdENsYXNzPWNlcnRpZmljYXRp
+b25BdXRob3JpdHkwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCBaAwPQYJKwYBBAGCNxUHBDAw
+LgYmKwYBBAGCNxUIg73QCYLtjQ2G7Ysrgd71N4WA0GIehb+6A4TEzEwCAWQCAQkwKQYDVR0lBCIw
+IAYIKwYBBQUHAwIGCCsGAQUFBwMEBgorBgEEAYI3CgMEMBcGA1UdIAQQMA4wDAYKKwYBBAFgCgIB
+ATA1BgkrBgEEAYI3FQoEKDAmMAoGCCsGAQUFBwMCMAoGCCsGAQUFBwMEMAwGCisGAQQBgjcKAwQw
+VwYDVR0RBFAwTqAtBgorBgEEAYI3FAIDoB8MHUtvbnN0YW50aW4uU2thYnVyc2thc0BjZXJuLmNo
+gR1Lb25zdGFudGluLlNrYWJ1cnNrYXNAY2Vybi5jaDBEBgkqhkiG9w0BCQ8ENzA1MA4GCCqGSIb3
+DQMCAgIAgDAOBggqhkiG9w0DBAICAIAwBwYFKw4DAgcwCgYIKoZIhvcNAwcwDQYJKoZIhvcNAQEF
+BQADggEBABzg5ZKRNiMmCPzky7MfgSFlDfZdyMbUZCB4qaFphSrxA2kjKs6yXaVfPRAoD7o9efmI
+c0VoBs5CJK3qDGQVkiijB72nF5zxXK9hXYvG/bkbVmdJJjTDy5lcAEqlqqbaSFLAbs1qT3lFJrPu
+sFLBD23kmhAii1N7v6N0LwIzYH3NE+DtbMTsHdNnXjNYDH5O9Wgxkl7fW3o9RFk+OETIgUddamMu
+4zignKXON9P0rQoudMphnzL5d4nS40tIArRdkVnTgcDggt++NLYDvbeAdj8QjG0KRZmwVMi5XfTW
+bNRFawl+AvQLXhnIGoBZ67ay/z6B39Oc2/5VRlNKB+eztDU=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

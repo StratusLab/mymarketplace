@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#AKXNsi2lTtj09U92MgSwerBCZBJ">
+
+        <dcterms:identifier>AKXNsi2lTtj09U92MgSwerBCZBJ</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>9eb3c524628bf4f0e829c87d0e3bc4c4</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>029736c8b6953b63d3d53dd8c812c1eac1099049</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>d3d3d29e4f9f8434c39bb66e32038707c99470d22bb1f4e93f14a245e51ddbe7</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>b1220a92c06a088053360516aa111fc752d4b51a99a80260822c922ed2c9cd26676e9cd3c7226b6e08e08249592ab5e07ca531e1d4800409734ae3a14085f7e5</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2013-05-27T07:16:47Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>efloros@grnet.gr</email><subject>CN=Vangelis Floros,OU=grnet.gr,O=HellasGrid,C=GR</subject><issuer>CN=HellasGrid CA 2006,OU=Certification Authorities,O=HellasGrid,C=GR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>CentOS</slterms:os>
+        <slterms:os-version>6.4</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>1</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>pdisk:onehost-7.lal.in2p3.fr:8445:30f966a6-2967-4c55-8299-3b44dcfc1179</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Vangelis Floros</dcterms:creator>
+
+        <dcterms:created>2013-05-26T11:49:12Z</dcterms:created>
+        <dcterms:valid>2016-05-28T11:49:12Z</dcterms:valid>
+
+        <dcterms:title>MM5 Appliance</dcterms:title>
+        <dcterms:description>Appliance based on Centos 6.4. Includes binaries for MM5 weather model and all necessary libraries for MPI and clustering. Weather models can be steered remotely using a REST api. REST Web Service is running on port 8080.</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+        <slterms:disks-bus>virtio</slterms:disks-bus>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>01Rv7Bq78zIHc7fX47inQg2UI80=</DigestValue></Reference></SignedInfo><SignatureValue>i+rLm3a18rx+QTzYerJky4INs+1skfk7lbGL3uNttZ3R3WSerQTkyD1r2vCh+pS0fat0IpD2gBKX
+W4sbIP2DLGbSHPLweykuKdJW6iliJAv94YYKC0q2AdZvPdx6T8ebXG0v1W0dS2B8+mPpHsQ2x1X0
+ODpxsE2IFCUVLuqIBRg=</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEwzCCA6ugAwIBAgICDBkwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCR1IxEzARBgNVBAoT
+CkhlbGxhc0dyaWQxIjAgBgNVBAsTGUNlcnRpZmljYXRpb24gQXV0aG9yaXRpZXMxGzAZBgNVBAMT
+EkhlbGxhc0dyaWQgQ0EgMjAwNjAeFw0xMzA1MTQxNDM4NTZaFw0xNDA1MTQxNDM4NTZaME8xCzAJ
+BgNVBAYTAkdSMRMwEQYDVQQKEwpIZWxsYXNHcmlkMREwDwYDVQQLEwhncm5ldC5ncjEYMBYGA1UE
+AxMPVmFuZ2VsaXMgRmxvcm9zMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmZzxv+iy3eTsc
+4cRzqWeM8hEVVopl8gKklpxZHk7u8dakvKLz+q2WTELAZ1GY2R5ot5avC7oXLwSTLAMRYrhVqhy6
+fXkK+NAngamP5HDRDia8JLAwUtsOCulWIw1ZPm/RTnSK3vk3A4Cdk4E6OwbIZlikS6IGbP1BmcaE
+XHO6HwIDAQABo4ICFzCCAhMwDAYDVR0TAQH/BAIwADARBglghkgBhvhCAQEEBAMCBaAwDgYDVR0P
+AQH/BAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAdBgNVHQ4EFgQUjQBygilr
+71RsoOE8W9tJ7buDcjQwgZIGA1UdIwSBijCBh4AUCdfyXQvjOh9s5EO+AT1PPLBmXiahbKRqMGgx
+CzAJBgNVBAYTAkdSMRMwEQYDVQQKEwpIZWxsYXNHcmlkMSIwIAYDVQQLExlDZXJ0aWZpY2F0aW9u
+IEF1dGhvcml0aWVzMSAwHgYDVQQDExdIZWxsYXNHcmlkIFJvb3QgQ0EgMjAwNoIBATAlBgNVHRIE
+HjAcgRpoZWxsYXNncmlkLWNhQGdyaWQuYXV0aC5ncjAbBgNVHREEFDASgRBlZmxvcm9zQGdybmV0
+LmdyMH8GA1UdIAR4MHYwdAYNKwYBBAGBukUIAQECADBjMGEGCCsGAQUFBwIBFlVodHRwOi8vd3d3
+LmdyaWQuYXV0aC5nci9wa2kvaGVsbGFzZ3JpZC1jYS0yMDA2L2RvY3VtZW50cy9jcHMvSGVsbGFz
+R3JpZC1DQS1DUC1DUFMucGRmMEgGA1UdHwRBMD8wPaA7oDmGN2h0dHA6Ly9jcmwuZ3JpZC5hdXRo
+LmdyL2hlbGxhc2dyaWQtY2EtMjAwNi84MmIzNmZjYS5jcmwwDQYJKoZIhvcNAQEFBQADggEBAIVo
+k82USefEgqbZmzyWdSi9KtBx3TU/W1xtpWXwsztqpN/FCu8eAx23fDCu+Bjg056unZ1KCEP6iTB5
+aOCT1XY9/igNoBuZIVI2yhk8Y20mJpitc9HZnMTp1tJPVfZZjDgY5UD6BRZF3M3wo+3FV/SAcYih
+1YXqaCrhvGOe5R+7fw3hNOd37b2Z5q/DQdYjjfyvQTCtbSwZgYqeV9sr9QtwaZNsihD+h9hg5ozM
+SGEJESPFo+MA7w4ZFoi0vAARywFpQrbd/o0mlRg7c8wC1Uz/MwZxQEpnZttKrouIwIytjbZAspKO
+mOcsCRoy79DDid51C5J/2iUlLKKml+ecRwM=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

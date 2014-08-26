@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://mp.stratuslab.eu/slreq#" xmlns:ns3="http://mp.stratuslab.eu/slterms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#Op9Dd969OLqQx24ljn-twNvsjBi">
+
+        <ns1:identifier>Op9Dd969OLqQx24ljn-twNvsjBi</ns1:identifier>
+
+        <ns2:bytes>5368709120</ns2:bytes>
+
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>MD5</ns2:algorithm>
+            <ns2:value>4b6a9cdea85fb583211b0598c135b57a</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-1</ns2:algorithm>
+            <ns2:value>ea7d0ddf7af4e2ea431db89639feb7036fb23062</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-256</ns2:algorithm>
+            <ns2:value>39cc39f25858f0f00705d426d5f6697be9195dc4c4a0b56b152583b84282d046</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-512</ns2:algorithm>
+            <ns2:value>1d213de9bc7ed315a4e2858518347923e5d9c80986517d5f346f0ee953ef066f52a3fca0c2e423f0f32c814f28b0242bb4d2562c39ff0b33d16e1167102ccd22</ns2:value>
+        </ns2:checksum>
+
+        <ns2:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-04-18T12:54:21Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>hudson.builder@stratuslab.eu</email><subject>CN=hudson builder,OU=Testing Department,O=StratusLab Project,C=EU</subject><issuer>CN=hudson builder,OU=Testing Department,O=StratusLab Project,C=EU</issuer></endorser></ns2:endorsement>
+
+        <ns1:type>base</ns1:type>
+        <ns3:kind>machine</ns3:kind>
+
+        <ns3:os>CentOS</ns3:os>
+        <ns3:os-version>6.2</ns3:os-version>
+        <ns3:os-arch>x86_64</ns3:os-arch>
+        <ns3:version>1.0</ns3:version>
+        <ns3:compression>gz</ns3:compression>
+        <ns1:compression>gz</ns1:compression>
+        
+
+        <ns1:format>raw</ns1:format>
+
+        <ns1:creator>hudson builder</ns1:creator>
+
+        <ns1:created>2012-04-18T12:52:09Z</ns1:created>
+        <ns1:valid>2012-10-13T12:52:09Z</ns1:valid>
+
+        <ns1:description>CentOS-6.2 base image automatically created by hudson. Configured only with a root user. The firewall in the image is disabled, IPv6 is enabled, and SELinux disabled. Uses the standard StratusLab contextualization mechanisms. A swap volume is expected to be provided on /dev/sdb. </ns1:description>
+
+        <ns3:hypervisor>kvm</ns3:hypervisor>
+
+        <ns1:publisher>StratusLab</ns1:publisher>
+        
+
+    <ns3:location>http://appliances.stratuslab.eu/images/base/CentOS-6.2-x86_64-base/1.0/CentOS-6.2-x86_64-base-1.0.img.gz</ns3:location></rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>SVyZXlvSLw6g9DQMzpAYtvgdFH4=</DigestValue></Reference></SignedInfo><SignatureValue>Kglv/pS4z5adIJeWFNigWQAD/0aTDlUexhAsW5m1GQmjFaks9FrPbTm1afn7yZTu0rgMqvTMIrJ7
+t+4bu4NG5UPFXDSB6j+0HfDIQJm30K+71eOqtDnBU9CuxsPIFa/7n9+RuhNpLm7x36KJQLRFH8LZ
+9IZFIVzVYelC1c27UsrX3+exBAZgNa+ur4GTz8pnAz4J+oUlHMSknsacHyu6eD1IMD1rBbH/CHLY
+EOTHYYHr0j9ed7q2hB2WR8dhIcr6+6p+bGsXK096+WK42C8LhdW18kKS8o+Re0vOxP0ihycJ5Dn+
+T6wHOGsKjQTtDgIkDozUXoQIu1OPTvIXDu0L+A==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEVDCCAzygAwIBAgIJALX++cDUDEqMMA0GCSqGSIb3DQEBBQUAMGAxCzAJBgNVBAYTAkVVMRsw
+GQYDVQQKExJTdHJhdHVzTGFiIFByb2plY3QxGzAZBgNVBAsTElRlc3RpbmcgRGVwYXJ0bWVudDEX
+MBUGA1UEAxMOaHVkc29uIGJ1aWxkZXIwHhcNMTIwNDE4MTI1MjEwWhcNMTMwNDE4MTI1MjEwWjBg
+MQswCQYDVQQGEwJFVTEbMBkGA1UEChMSU3RyYXR1c0xhYiBQcm9qZWN0MRswGQYDVQQLExJUZXN0
+aW5nIERlcGFydG1lbnQxFzAVBgNVBAMTDmh1ZHNvbiBidWlsZGVyMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA45COUc9GdwY4VK+v/q7u9Wxc6yqKjIE9RqeoslEbMjH46mTgq+NNxWQA
+g9pFiRWnB0/qAJ2m+J/KyOxL9rlEr0L5E8V+LliU89CCRKXDXOcUHshmze/+oFZWd5UhU/oP0Tw5
+3bvPMVwZTXAxv0A1LkAnIx9K2wJdJxJnsOhfbuc+GzOsGlCf+v2FEZS8Fz8m7if/eqyAAZXJsjQ5
+VDQUAeXjCLVrHk3G802AY+Cdo/pgV8u5dMwNjI2Z5o8Az7XlDR99BbKhlKZwfPEh8+TE3X933+rG
+y/zajMpUVdA2ErGi7CgbYLPQXAt44o5/bvf1hld436a4mj9fwSeOIX+nnQIDAQABo4IBDzCCAQsw
+CQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBLAwDgYDVR0PAQH/BAQDAgP4MB0GA1UdDgQWBBSX
+QjUe3zDrZz7QaO6Xp7Ym8jpHqzCBkgYDVR0jBIGKMIGHgBSXQjUe3zDrZz7QaO6Xp7Ym8jpHq6Fk
+pGIwYDELMAkGA1UEBhMCRVUxGzAZBgNVBAoTElN0cmF0dXNMYWIgUHJvamVjdDEbMBkGA1UECxMS
+VGVzdGluZyBEZXBhcnRtZW50MRcwFQYDVQQDEw5odWRzb24gYnVpbGRlcoIJALX++cDUDEqMMCcG
+A1UdEQQgMB6BHGh1ZHNvbi5idWlsZGVyQHN0cmF0dXNsYWIuZXUwDQYJKoZIhvcNAQEFBQADggEB
+ALCDfeZfv/opt3OhxkOURQhpBj0PCX/oLkAXWmJkeXlDTOYUmBWqikrwrl7mbDeh7uWbEP/i1oWR
+1RvVyP8jIrmtu87SMVpDU6//XzhmHNTHwazWeO6a6jskDUJz5diF8LT7U2Fhc5HcLSMLuYnNXtDc
+/EEeyUb1kyXWwVkn4NSuB0RHGXU1vh2txORrSvA5wQu9lDZS1RPWBZk3aDIIOVLBQTM15IQeCCRg
+6GJDZpHWYl4ahiYApUvdrHX5DAFMyJc0QKrXJzwaSGoaoZDKg+1VxSMxdhwYTHb6ydp97hc9nGvK
+DH9gUzwNa5OCdaO8U0bMMzCxQXKL6ZNV8EOgQX4=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

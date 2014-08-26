@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:ns1="http://purl.org/dc/terms/" xmlns:ns2="http://mp.stratuslab.eu/slreq#" xmlns:ns3="http://mp.stratuslab.eu/slterms#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#NUzqHG-6ryDSM4jpktVfrurh1fY">
+
+        <ns1:identifier>NUzqHG-6ryDSM4jpktVfrurh1fY</ns1:identifier>
+
+        <ns2:bytes>5368709120</ns2:bytes>
+
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>MD5</ns2:algorithm>
+            <ns2:value>d84d33c3a154a6b8a276b28bbd02d461</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-1</ns2:algorithm>
+            <ns2:value>d533a871beeabc8348ce23a64b557ebbab8757d8</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-256</ns2:algorithm>
+            <ns2:value>2540e2146e9de43082aa83cab8c80608064eaef8e6b481a8116e133e8da7c8f2</ns2:value>
+        </ns2:checksum>
+        <ns2:checksum rdf:parseType="Resource">
+            <ns2:algorithm>SHA-512</ns2:algorithm>
+            <ns2:value>47ceb78dfc0a0e9c40b4197d29d78a26d2feebab1a52576c1e3cd3f76c8aaa5f6a8922111c1b9b957ecbbb98281db840acdae673a1fedcab16cdaf740661c2a7</ns2:value>
+        </ns2:checksum>
+
+        <ns1:type>base</ns1:type>
+        <ns3:kind>machine</ns3:kind>
+
+        <ns3:os>openSUSE</ns3:os>
+        <ns3:os-version>12.1</ns3:os-version>
+        <ns3:os-arch>x86_64</ns3:os-arch>
+        <ns3:version>1.0</ns3:version>
+        <ns1:compression>gz</ns1:compression>
+        
+
+        <ns1:format>raw</ns1:format>
+
+        <ns1:creator>hudson builder</ns1:creator>
+
+        <ns1:created>2012-04-23T17:09:04Z</ns1:created>
+        <ns1:valid>2012-10-18T17:09:04Z</ns1:valid>
+
+        <ns1:description>openSUSE 12.1 base image automatically created by hudson. Configured only with a root user. The firewall in the image is disabled, IPv6 is enabled, and SELinux disabled. Uses the standard StratusLab contextualization mechanisms. A swap volume is expected to be provided on /dev/sdb. </ns1:description>
+
+        <ns3:hypervisor>kvm</ns3:hypervisor>
+
+        <ns1:publisher>StratusLab</ns1:publisher>
+        
+
+    <ns3:compression>gz</ns3:compression><ns3:location>http://appliances.stratuslab.eu/images/base/openSUSE-12.1-x86_64-base/1.0/openSUSE-12.1-x86_64-base-1.0.img.gz</ns3:location><ns2:endorsement parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-04-23T17:28:21Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>hudson.builder@stratuslab.eu</email><subject>CN=hudson builder,OU=Testing Department,O=StratusLab Project,C=EU</subject><issuer>CN=hudson builder,OU=Testing Department,O=StratusLab Project,C=EU</issuer></endorser></ns2:endorsement><ns3:deprecated>Fixing swap bug</ns3:deprecated></rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>FsD0j7W9Ub3lIChA0sQjyTBd7KM=</DigestValue></Reference></SignedInfo><SignatureValue>xBqcxvHpc71PyS+WqrijHtR83VZq9N0u2IShhiv9N1wfuHY47NHjfr76vfTjR+YCLI+yLYzOsA5B
+lwDipGE+DDfuFukX3Aq+vPfIDSwVJrSLBRWaWgsuCnGL+DuPM/W5cy1wJ0qF/CPnvpIydp2uDxt2
+UMC2levUGOigX6RXuFeYFTbpnG9xjyx+yxGAIb32IiGQYsbnRmdSPBAHJdWgp1js2mw76MUOvFml
+QpJ0O2ZKzBPR0v8jB/B8CJ4Cj2VQtv6vzqJaM1z8AX9kxfNpXxooZsy2ttXjqc38RXPVuWujGWM2
+qIBN3xoVo2iZhCrxP1Ij4lD/yEXeaOCPvan9ug==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEVDCCAzygAwIBAgIJALOeVAf6Ux0KMA0GCSqGSIb3DQEBBQUAMGAxCzAJBgNVBAYTAkVVMRsw
+GQYDVQQKExJTdHJhdHVzTGFiIFByb2plY3QxGzAZBgNVBAsTElRlc3RpbmcgRGVwYXJ0bWVudDEX
+MBUGA1UEAxMOaHVkc29uIGJ1aWxkZXIwHhcNMTIwNDIzMTcxMzU3WhcNMTMwNDIzMTcxMzU3WjBg
+MQswCQYDVQQGEwJFVTEbMBkGA1UEChMSU3RyYXR1c0xhYiBQcm9qZWN0MRswGQYDVQQLExJUZXN0
+aW5nIERlcGFydG1lbnQxFzAVBgNVBAMTDmh1ZHNvbiBidWlsZGVyMIIBIjANBgkqhkiG9w0BAQEF
+AAOCAQ8AMIIBCgKCAQEA0fy2uTlRN5ULyQaRRujuQ7eM1MiqL4YVoGx/NrhPazz2T4tfTC9LPMR5
+TZekHlAOpKUVSjW76lhMbFJg2JeYlmyc6/Jq/hqaxUtzwwZoBKI4ONTJh3rbcRTwSugk7b7Q/z5n
+R8Gak4Nj8tI58s4CoDpTlzYSpLSP0a/sDU6WA1m7GMXjfrMu86nJqZ2TJYyMg3pFR5YoGJ5SvRAj
+j7Va5pH7P1KjHp5jqt6UPpFWo8LSms4FMsrxf7IZTJ0nr060btG1AapTqB9EwlH0xqH9TAMLWQN4
+CRv9aQWSUp/TYK60m4x5oF4l/6rPqlJpQ5IARymfzHuCHDjV2AdwUuRDQQIDAQABo4IBDzCCAQsw
+CQYDVR0TBAIwADARBglghkgBhvhCAQEEBAMCBLAwDgYDVR0PAQH/BAQDAgP4MB0GA1UdDgQWBBRo
+iRiRdzAoFeJ6S9b+sfsvmRyZ6zCBkgYDVR0jBIGKMIGHgBRoiRiRdzAoFeJ6S9b+sfsvmRyZ66Fk
+pGIwYDELMAkGA1UEBhMCRVUxGzAZBgNVBAoTElN0cmF0dXNMYWIgUHJvamVjdDEbMBkGA1UECxMS
+VGVzdGluZyBEZXBhcnRtZW50MRcwFQYDVQQDEw5odWRzb24gYnVpbGRlcoIJALOeVAf6Ux0KMCcG
+A1UdEQQgMB6BHGh1ZHNvbi5idWlsZGVyQHN0cmF0dXNsYWIuZXUwDQYJKoZIhvcNAQEFBQADggEB
+AGyphLZOvistEZQMs9wa+gGC2V4wXiSjnQTaCIqpCXL95bK+btKtZGIs8QASaiJ9za5dd+MJ04wM
+Id++Q1rHsn7ShzEjFwx8yPKvf7KVWbmAhqJ8gmM5bDHh5CBzHsX6QIUDx156D5OubS5JHpT8BYvn
+ViI5+GxqZQtAr3vUr73nTPs7Hr5VcBe9JI/baN96653Cg9EbP3kNOJOXpAgXisPezb/mL0aF+nAx
+2bxZX/IYZukQb7MWhHiYZfUrUqhU1YKGHe+uS5aSbvwPCeIxBUEQrIIST3uk/7buFWVWtT//G92y
++8IhppIEOc2ljIkudJ63EnORvlwNkkWhWzPLH2k=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

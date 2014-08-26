@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#MI0MxCvIcVaOUwgPgTy_NzvXagM">
+
+        <dcterms:identifier>MI0MxCvIcVaOUwgPgTy_NzvXagM</dcterms:identifier>
+
+        <slreq:bytes>5120000000</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>d41d8cd98f00b204e9800998ecf8427e</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>c2343310af21c55a394c203e04f2fcdcef5da80c</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-09-28T10:54:31Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>christophe.blanchet@ibcp.fr</email><subject>CN=Christophe Blanchet,OU=IBCP,O=CNRS,C=FR,O=GRID-FR</subject><issuer>CN=GRID2-FR,O=CNRS,C=FR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>bio</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+        <dcterms:title>BIO compute node</dcterms:title>
+        <slterms:version>2.2</slterms:version>
+        <dcterms:creator>Christophe Blanchet</dcterms:creator>
+        <dcterms:publisher>idee-B</dcterms:publisher>
+
+        <slterms:os>CentOS</slterms:os>
+        <slterms:os-version>6.3</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>pdisk:griage19.ibcp.fr:8445:b220d0f2-8689-4fd6-ad67-d30255eaf4e3</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:created>2012-09-28T10:44:43Z</dcterms:created>
+        <dcterms:valid>2020-09-30T10:44:43Z</dcterms:valid>
+
+        <dcterms:description>Bioinformatics compute appliance built by CNRS IBCP-IDB. The following
+            bioinformatics tools are installed and available from the command line: abyss, blast+,
+            bowtie, bowtie2, bwa, cap3, clustal-omega, clustalw2, fasta36, gor4, hmm, meme,
+            multalin, muscle, predator, ray, R, samtools, simpa96. To log in, use ssh with your key
+            and the 'root' account. You have also access to the tools through a web portal, simply
+            connect to your virtual machine with a standard web browser. The appliance can mount the
+            cloud biological database repository (if available) by giving the corresponding
+            contextualization parameters with the stratus-run-instance command. For example to run
+            this appliance on the IBCP cloud, the command looks like: stratus-run-instance
+            --context="BIO_DB_SERVER=idb-databases.ibcp.fr" Appliance-ID . This appliance can also
+            mount your persistent disk, at boot time or as a hot mount. For more details, see
+            relative documentation on the Idee-B site (http://idee-b.ibcp.fr).</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>V90DJXlVRBJ7mT4JBxhWww8Wgp4=</DigestValue></Reference></SignedInfo><SignatureValue>T5xRdbuzH5TAKOoDvwozqWQFbKgIWsRhDzDH66OzihIwqNPZS+xY7btnc7tiqdTO89m+HcKruB/P
+AkU3vavY4V5whWi3iHdpEaTknqXcWtnQraP1JtSZi6YHkmkqHTNoEweCKVvJGuQ2BiY+N8px+YkM
+E1ZDPzu7+5rbrFXf2xyqbRXM9BFcB1g2DPahtEYg+AchAF3VG0NAg7YmHbvAHy89QQJhX/cYqt6h
+5sxTPewxy2ipE2XErU1XAfTzECIXjcQKltS7klG7F35xf/E7Clh/IJfII7zm4MtL6QcsSR4yV7dK
+jcsQ6c84vR1qENeHJX0IgHh0atJgAkgi0JZpfg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEwTCCA6mgAwIBAgICD98wDQYJKoZIhvcNAQEFBQAwLzELMAkGA1UEBhMCRlIxDTALBgNVBAoT
+BENOUlMxETAPBgNVBAMTCEdSSUQyLUZSMB4XDTExMDIxNjA5MjA1MFoXDTEyMDIxNjA5MjA1MFow
+WzEQMA4GA1UEChMHR1JJRC1GUjELMAkGA1UEBhMCRlIxDTALBgNVBAoTBENOUlMxDTALBgNVBAsT
+BElCQ1AxHDAaBgNVBAMTE0NocmlzdG9waGUgQmxhbmNoZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDQMXPK8FcWa7tSnjjv7EJQ8Q0IwUwGNGrUslOt5GDYGuTNkVLJn+zTf/sNFSkR
+GcapAkKwwroUjaRa4Rjf6E1yzfKCPWW/mOPObou1NnpZOvfgnA1gjeH1d/W1zDCI4NLl0go4PsKm
+hwzZYxsMpkrKGPSbLP04TMN0+Cstl0gefL6cwyFUotTqvMRN52aOftl75VRivwtPhoL9VR8wnTq4
+PEpQahHuk3gVkNdP9mDegNvspUHQa4YYpxZ0+22Bu+9R4CnGtkKYjOri1ODayTlf0kceeJ+yP0JQ
+jNdBLcgfZVa/j7M+nAEz+4O7KXoi3F5h/kwO40SncEevbu5XacvvAgMBAAGjggG5MIIBtTAMBgNV
+HRMBAf8EAjAAMBEGCWCGSAGG+EIBAQQEAwIEsDAOBgNVHQ8BAf8EBAMCA/gwZAYJYIZIAYb4QgEN
+BFcWVUNlcnRpZmljYXRlIEdSSUQyLUZSLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgc2VlIGh0dHA6
+Ly9pZ2Muc2VydmljZXMuY25ycy5mci9HUklEMi1GUi8wHQYDVR0OBBYEFI9kxwc8+sBBQpZ6oWMq
+IYzFbhmqMFwGA1UdIwRVMFOAFCeWSCfuIbbyr7Etffr310glcJWToTikNjA0MQswCQYDVQQGEwJG
+UjENMAsGA1UEChMEQ05SUzEWMBQGA1UEAxMNQ05SUzItUHJvamV0c4IBAzAZBgNVHSAEEjAQMA4G
+DCsGAQQB1D0BAQgBATAmBgNVHREEHzAdgRtjaHJpc3RvcGhlLmJsYW5jaGV0QGliY3AuZnIwQQYD
+VR0fBDowODA2oDSgMoYwaHR0cDovL2NybHMuc2VydmljZXMuY25ycy5mci9HUklEMi1GUi9nZXRk
+ZXIuY3JsMBkGCCsGAQQBu2IBBA11bmljb3JlQ2xpZW50MA0GCSqGSIb3DQEBBQUAA4IBAQCGU/lw
+bnSxDN9hd3/v1FzPkZUrie3fJgIa6w5gk02u89FRkyE6W2gMqD89d/ZoL4Vc8FsGmmd5jD73MfV6
+xvMk+pZ398YNlFxAODlZCeolFutXJuShhX+7mQREGvV1Sh2SaFxacdtzKz9jYGlLXxe7Y4Jy0ZfA
+YjeCXiSakT4aHYC53VPuqFXnQgo8OXrDSSPH5doenDxNjnQBpnXEUd8SRVgwkHTOyW6rub/yQiig
+FtDDs7Q2lREzWqq9WI+8qezxLwV63tIhohC321mCHMn2iQ3mGrjRIxAjD2kQ9ARs4zTxZnTl1aaw
+iub2yqZIMx7L9xAJkPvD/wiNkWJwbquW</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

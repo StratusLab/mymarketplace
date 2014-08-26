@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#AgiiUpr7WxQoegmsW279F_fxN6S">
+
+        <dcterms:identifier>AgiiUpr7WxQoegmsW279F_fxN6S</dcterms:identifier>
+
+        <slreq:bytes>801800132</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>269883decada29cf7cc217762b5bbd2c</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>0822894a6bed6c50a1e826b16dbbf45fdfc4de92</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>437b4587c2c391b63f20e0b9e6bebedf9183928af978ce8181346460d0f75336</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>8884cdfb3b21d41b63056f69d5d56eb4a975e8edfc7e30763b61e2ee46193086110b95af7537010d1ffb13281bc66786cc20dfc74c26e5d9994208e783829c48</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2011-06-29T14:07:26Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>j.rybicki@fz-juelich.de</email><subject>CN=Jedrzej Rybicki,OU=Forschungszentrum Juelich GmbH,O=GridGermany,C=DE</subject><issuer>CN=DFN-Verein PCA Grid - G01,OU=DFN-PKI,O=DFN-Verein,C=DE</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+	
+	<slterms:os>ubuntu</slterms:os>
+        <slterms:os-version>10.04</slterms:os-version>
+        <slterms:os-arch>i686</slterms:os-arch>
+        <slterms:version>1.0</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://dl.dropbox.com/u/23387143/ubuntu-fed.img.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Jedrzej Rybicki</dcterms:creator>
+        <dcterms:title>Ubuntu with Fedora Commons Repository</dcterms:title>
+        <dcterms:description>Preinstalled Fedora Commons Repository</dcterms:description>
+        
+
+        
+        <dcterms:created>2011-06-29T13:42:45Z</dcterms:created>
+        <dcterms:valid>2011-12-24T13:42:45Z</dcterms:valid>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>0D9aAz947qglUaUG8HFpc/L1jhs=</DigestValue></Reference></SignedInfo><SignatureValue>z6Ka2LAv41koiePX9+tKYesByES4pk82xnhZKGe7iVmsKoZRL5iB7xpHhiKnvyUOw5o6pfobVO5h
++u7rKElqpJw+V7xlFh8G1Ck7TF0y1aQLJCiIsrminnJ1UFSi4uW689C8pkZUOUq8I90WzOCAOltz
+83pBuAZHHdVt+dyE3advDdqlFTaEJ4IYw8WTz3S3oFbpagaZ9lgOrHQGpTPK1Ad7elC8KUWnOHga
+YiMcNg3vIitJMeruHgj1iWyDLEkgtlLPzwKEXxQuwE4zzQHKGU0aALNqUexz88iRqTHkcTFoLkKQ
+e/i3o3Sl+livxgDuS4e7FCD7o7oUc5DaJ23gsA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFrDCCBJSgAwIBAgIEEczKVzANBgkqhkiG9w0BAQUFADBYMQswCQYDVQQGEwJERTETMBEGA1UE
+ChMKREZOLVZlcmVpbjEQMA4GA1UECxMHREZOLVBLSTEiMCAGA1UEAxMZREZOLVZlcmVpbiBQQ0Eg
+R3JpZCAtIEcwMTAeFw0xMTA0MTkwODUwMTZaFw0xMjA1MTYwODUwMTZaMGYxCzAJBgNVBAYTAkRF
+MRQwEgYDVQQKEwtHcmlkR2VybWFueTEnMCUGA1UECxMeRm9yc2NodW5nc3plbnRydW0gSnVlbGlj
+aCBHbWJIMRgwFgYDVQQDEw9KZWRyemVqIFJ5Ymlja2kwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDP5wF2zVvpH1d4H6+yB4TGPHA3VCdED4WYtZwVrBtzVANS1KpSY3amTQzdbRGyBiws
+5vugpGYneSwEmsFeneWVPOhWISgl7/6qEpdtM7WXe/5jXFjc5BIgrcEVsFUaSjACTW5t0bkIaSVe
+EMTw/0UEBE6hUF5L/4ztHbMjAZZqxdRWMScSDcb3zntWM5KmTB7R1Ve05+AYOc1PIIbDRtBBr7iX
+8EGiqecrWhy5oJ+7470pSvrbMj0Aqgdw+Cxb+VQ1uEW6KJrszL1DYhPYUbPtP9IBwAPALDuhcRjg
+DlbUn+rWTShoMjbRBXIm3SyDxe3iVIrMnJy/gU6f9/G2MEx9AgMBAAGjggJuMIICajAMBgNVHRMB
+Af8EAjAAMA4GA1UdDwEB/wQEAwIEsDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwHQYD
+VR0OBBYEFM/iyhCTOcV9b9zN+SwqLH7+6YQ5MB8GA1UdIwQYMBaAFJbs3K2aw/5Qozwi5T3Cxf/K
+2SLGMCIGA1UdEQQbMBmBF2oucnliaWNraUBmei1qdWVsaWNoLmRlMCoGA1UdIAQjMCEwEQYPKwYB
+BAGBrSGCLAEBAwEFMAwGCiqGSIb3TAUCAgEwgcEGA1UdHwSBuTCBtjBZoFegVYZTaHR0cDovL2Nk
+cDEucGNhLmRmbi5kZS9kZm4tcGtpL2NlcnRpZmljYXRpb24veDUwOS9ncmlkL2cxL2RhdGEvY3Js
+cy9yb290LWNhLWNybC5jcmwwWaBXoFWGU2h0dHA6Ly9jZHAyLnBjYS5kZm4uZGUvZGZuLXBraS9j
+ZXJ0aWZpY2F0aW9uL3g1MDkvZ3JpZC9nMS9kYXRhL2NybHMvcm9vdC1jYS1jcmwuY3JsMIHWBggr
+BgEFBQcBAQSByTCBxjBhBggrBgEFBQcwAoZVaHR0cDovL2NkcDEucGNhLmRmbi5kZS9kZm4tcGtp
+L2NlcnRpZmljYXRpb24veDUwOS9ncmlkL2cxL2RhdGEvY2VydHMvcm9vdC1jYS1jZXJ0LmNydDBh
+BggrBgEFBQcwAoZVaHR0cDovL2NkcDIucGNhLmRmbi5kZS9kZm4tcGtpL2NlcnRpZmljYXRpb24v
+eDUwOS9ncmlkL2cxL2RhdGEvY2VydHMvcm9vdC1jYS1jZXJ0LmNydDANBgkqhkiG9w0BAQUFAAOC
+AQEAkzLlOVWM8LFhxdrS4ih0fa8V/wY8CxdiWe/Cy3D9E4pZ+B3mERJ6XPOGvICBIM+iKGaOg50h
+OMWuQFPeEDvKATQOsb/sIiUfXHv5/OZ1t4RtfBgrCJ/bGsu+xlWGS2Omu7Csjy4dBGl5HgWODMEE
+dr4VQsSBJdNqU9uQKpB02ewsKr00GTUVxaufqacaL3KP/IUjJUAQxXLPXY2F2JHl/QsTSFOOwdi7
+ilhj6eIhlXi3DmPN5ZONJXbxXPeKIIMtDvV+RS1TgNRwPt9/SCnT8NUqQdwWldIs9CBfk/AvQ28E
+t6zoNucwz1sxY9wohBzXORy4zc5uL744LmKswfmB5A==</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

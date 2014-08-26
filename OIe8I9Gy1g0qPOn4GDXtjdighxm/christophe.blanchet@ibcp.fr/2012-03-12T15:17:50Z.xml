@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#OIe8I9Gy1g0qPOn4GDXtjdighxm">
+
+        <dcterms:identifier>OIe8I9Gy1g0qPOn4GDXtjdighxm</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>da2467b2c4d4a4498e59c74b4348e26e</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>e21ef08f46cb5834a8f3a7e060d7b63762821c66</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>c9bc50618ea5124159fc9a55b3d9a82b390812a1d398e75820079727d3870881</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>bb69a00507115575a14fc7b7da75e86ef9f55acccb12a5aaf2c5f0295e5e03b75ecf3359ed6636a126d67a07246ac288557208f94e8b881892cf7869eac12fde</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-03-12T15:17:50Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>christophe.blanchet@ibcp.fr</email><subject>CN=Christophe Blanchet,OU=IBCP,O=CNRS,C=FR,O=GRID-FR</subject><issuer>CN=GRID2-FR,O=CNRS,C=FR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>bio</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>ARIA2.3</slterms:os>
+        <slterms:os-version>5.7</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>1.1</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://idb-appliances.ibcp.fr/images/bio/ARIA2.3-x86_64-bio/1.1/ARIA2.3-x86_64-bio-1.1.img.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Christophe Blanchet</dcterms:creator>
+
+        <dcterms:created>2012-03-12T15:04:45Z</dcterms:created>
+        <dcterms:valid>2020-09-06T15:04:46Z</dcterms:valid>
+
+        <dcterms:description>This appliance is part of the StratusLab bioinformatics usecase
+            TOSCANI (TOwards StruCtural AssignmeNt Improvement). The goal is to improve the
+            determination of protein structures based on Nuclear Magnetic Resonance (NMR)
+            information with the help of a cloud infrastructure based on the StratusLab framework.
+            This concerns the scientific disciplines around (i) molecular and structural biology
+            (determination of biomolecular structures up to atomic resolution) and (ii)
+            bioinformatics, which includes the ensemble of computer algorithms for treating the data
+            from biological systems.This work is done in collaboration between Institut Pasteur (Dr.
+            M. Nilges) and CNRS IBCP (Dr. C. Blanchet). This appliance includes a fully functionnal
+            version of the ARIA 2.3 software developped in Institut Pasteur. </dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>LHfuY6W0GEGVoq9Gl6QlsEJ5Kk4=</DigestValue></Reference></SignedInfo><SignatureValue>C4/N6zbzJcUekdpsBNvHqeqtqnrlhETpbBKuH2Ym+h8JlVzQVKtaRIMTRDq9tDsmivsa6EEk6mUi
+JKbu6eGjkztXdEMalci5nooWJF87jXBBmzuW0LMBHA+WEqV7R0aV4PA6CV+Qo70n8tDOJM1wS9Db
+mDtaRuaAENttgYOWwuWb6Qyw2stpto7WfmRPmSbru86+miF3QMfVSk87p5L1HGYtNsCN7GMG/WcB
+W8ZxwFtZICwUjm0gIQYIC2mNAZjUg5lBFpuePaDtfNNR20WYCqmCMCM9OftMPEAnqT9xZGzwN28M
+2ck1OzhtKpyo/xVXe8RzMTNp6SmN6syWI1/Mdw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEwTCCA6mgAwIBAgICD98wDQYJKoZIhvcNAQEFBQAwLzELMAkGA1UEBhMCRlIxDTALBgNVBAoT
+BENOUlMxETAPBgNVBAMTCEdSSUQyLUZSMB4XDTExMDIxNjA5MjA1MFoXDTEyMDIxNjA5MjA1MFow
+WzEQMA4GA1UEChMHR1JJRC1GUjELMAkGA1UEBhMCRlIxDTALBgNVBAoTBENOUlMxDTALBgNVBAsT
+BElCQ1AxHDAaBgNVBAMTE0NocmlzdG9waGUgQmxhbmNoZXQwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDQMXPK8FcWa7tSnjjv7EJQ8Q0IwUwGNGrUslOt5GDYGuTNkVLJn+zTf/sNFSkR
+GcapAkKwwroUjaRa4Rjf6E1yzfKCPWW/mOPObou1NnpZOvfgnA1gjeH1d/W1zDCI4NLl0go4PsKm
+hwzZYxsMpkrKGPSbLP04TMN0+Cstl0gefL6cwyFUotTqvMRN52aOftl75VRivwtPhoL9VR8wnTq4
+PEpQahHuk3gVkNdP9mDegNvspUHQa4YYpxZ0+22Bu+9R4CnGtkKYjOri1ODayTlf0kceeJ+yP0JQ
+jNdBLcgfZVa/j7M+nAEz+4O7KXoi3F5h/kwO40SncEevbu5XacvvAgMBAAGjggG5MIIBtTAMBgNV
+HRMBAf8EAjAAMBEGCWCGSAGG+EIBAQQEAwIEsDAOBgNVHQ8BAf8EBAMCA/gwZAYJYIZIAYb4QgEN
+BFcWVUNlcnRpZmljYXRlIEdSSUQyLUZSLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgc2VlIGh0dHA6
+Ly9pZ2Muc2VydmljZXMuY25ycy5mci9HUklEMi1GUi8wHQYDVR0OBBYEFI9kxwc8+sBBQpZ6oWMq
+IYzFbhmqMFwGA1UdIwRVMFOAFCeWSCfuIbbyr7Etffr310glcJWToTikNjA0MQswCQYDVQQGEwJG
+UjENMAsGA1UEChMEQ05SUzEWMBQGA1UEAxMNQ05SUzItUHJvamV0c4IBAzAZBgNVHSAEEjAQMA4G
+DCsGAQQB1D0BAQgBATAmBgNVHREEHzAdgRtjaHJpc3RvcGhlLmJsYW5jaGV0QGliY3AuZnIwQQYD
+VR0fBDowODA2oDSgMoYwaHR0cDovL2NybHMuc2VydmljZXMuY25ycy5mci9HUklEMi1GUi9nZXRk
+ZXIuY3JsMBkGCCsGAQQBu2IBBA11bmljb3JlQ2xpZW50MA0GCSqGSIb3DQEBBQUAA4IBAQCGU/lw
+bnSxDN9hd3/v1FzPkZUrie3fJgIa6w5gk02u89FRkyE6W2gMqD89d/ZoL4Vc8FsGmmd5jD73MfV6
+xvMk+pZ398YNlFxAODlZCeolFutXJuShhX+7mQREGvV1Sh2SaFxacdtzKz9jYGlLXxe7Y4Jy0ZfA
+YjeCXiSakT4aHYC53VPuqFXnQgo8OXrDSSPH5doenDxNjnQBpnXEUd8SRVgwkHTOyW6rub/yQiig
+FtDDs7Q2lREzWqq9WI+8qezxLwV63tIhohC321mCHMn2iQ3mGrjRIxAjD2kQ9ARs4zTxZnTl1aaw
+iub2yqZIMx7L9xAJkPvD/wiNkWJwbquW</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

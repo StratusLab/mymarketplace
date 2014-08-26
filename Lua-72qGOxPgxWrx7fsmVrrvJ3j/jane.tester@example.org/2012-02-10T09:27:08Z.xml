@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#Lua-72qGOxPgxWrx7fsmVrrvJ3j">
+
+        <dcterms:identifier>Lua-72qGOxPgxWrx7fsmVrrvJ3j</dcterms:identifier>
+
+        <slreq:bytes>5120000000</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>d41d8cd98f00b204e9800998ecf8427e</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>bb9afbbdaa18ec4f8315abc7b7ec995aebbc9de3</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-02-10T09:27:08Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>jane.tester@example.org</email><subject>CN=Jane Tester,OU=Testing Department,O=StratusLab Project,C=EU</subject><issuer>CN=Jane Tester,OU=Testing Department,O=StratusLab Project,C=EU</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>appliance</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>Fedora</slterms:os>
+        <slterms:os-version>14</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>1.1</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>pdisk:62.217.120.157:8445:59f9f267-479a-4a4e-9d64-708701580aed</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Vangelis Floros</dcterms:creator>
+
+        <dcterms:created>2012-02-10T09:27:07Z</dcterms:created>
+        <dcterms:valid>2012-02-12T09:27:07Z</dcterms:valid>
+
+        <dcterms:description>Fedora 14 installed and configured with the following additional packages: NFS server, Hadoop 0.20.203.0, JDK 2.6 update 27, gcc and ntpd. IPtables and SELinux have been disabled by default. All packages have been update to the latest ones as of 30 Aug 2011.</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>gm0VzXatpdykV0Wy5/H55ZLqef4=</DigestValue></Reference></SignedInfo><SignatureValue>cHX2sj6Mb7CN2XaSFaMmWIXXyc7RX/RGrMQisBwMeLz3aA0qsazi1MLJDRQ1kkJR3JQIobUsag+j
+bn3xQmd92jMFc837g7er4pH09ZsHTQ0MR4i2RyFtT00LgPrbwOpQ3u5suG2d68kdFA9eqBRRwJ1N
+dRRYtGEgPaDpvJPWyJh6CRuyD0cHXYO+aYqpSZv3zHqu3n8sCP80BZXp7S1QMhoHf5HEpDBQ08u7
+gwK60MknHekb2vPfsPjzJCdzc6yili3m2viEtt+hMKM5rjQdnExbpQQ6bfKdZRoEpcWq0KWV+82e
+DQaYa6h9JsPBMPwEDFC73WnY+9FV1YhvrMm8Pg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIERjCCAy6gAwIBAgIJANJoHdZCKv6ZMA0GCSqGSIb3DQEBBQUAMF0xCzAJBgNVBAYTAkVVMRsw
+GQYDVQQKExJTdHJhdHVzTGFiIFByb2plY3QxGzAZBgNVBAsTElRlc3RpbmcgRGVwYXJ0bWVudDEU
+MBIGA1UEAxMLSmFuZSBUZXN0ZXIwHhcNMTIwMjEwMDkyNzA2WhcNMTIwMjEyMDkyNzA2WjBdMQsw
+CQYDVQQGEwJFVTEbMBkGA1UEChMSU3RyYXR1c0xhYiBQcm9qZWN0MRswGQYDVQQLExJUZXN0aW5n
+IERlcGFydG1lbnQxFDASBgNVBAMTC0phbmUgVGVzdGVyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAp/pbcVCOZWwts+JgNmYhUDCquCI20EJz6uLW6OcP/GLmOaFmTX6v6Ur82Wh79m2d
+WMRfj7zw6wzPGgOCkme1xcX/eMjFiq2WTA89APLtveyoN5ahXChxaQObTmoiZeT3oLahERlCsvgf
+iixB5qKdVVTAlmInVJEnWVVYlWXKRb1UP6uH6z+t2WyhCtAuvd+EwpD1cXoANI8yFajTFe6J8yyz
+ZPm3y2bjTRcKjxy+86co6hxy+L9fhZ+aY9J6uzUSbz1v3lGKldWx9EIRRpOCFB9ODvdiB40JT6M5
+/itZ9ln5Q5cldvo6QP5A0oJNIT7tqLPhf/NHbD5+M+ewaABAuwIDAQABo4IBBzCCAQMwCQYDVR0T
+BAIwADARBglghkgBhvhCAQEEBAMCBLAwDgYDVR0PAQH/BAQDAgP4MB0GA1UdDgQWBBSj8cQNAzDX
+9gBvrj119T/UZsu5HTCBjwYDVR0jBIGHMIGEgBSj8cQNAzDX9gBvrj119T/UZsu5HaFhpF8wXTEL
+MAkGA1UEBhMCRVUxGzAZBgNVBAoTElN0cmF0dXNMYWIgUHJvamVjdDEbMBkGA1UECxMSVGVzdGlu
+ZyBEZXBhcnRtZW50MRQwEgYDVQQDEwtKYW5lIFRlc3RlcoIJANJoHdZCKv6ZMCIGA1UdEQQbMBmB
+F2phbmUudGVzdGVyQGV4YW1wbGUub3JnMA0GCSqGSIb3DQEBBQUAA4IBAQAW5gu61fBeZPw4qlFf
+yQdK3Egc0TWAamV1gjdAMw8SszOnj8MMBdnq91TuFThctGWHl4K1+T2X2gzWeVTqJ0LbuuMXDU5m
+x/XbjNl+N5AQR9p6YrfFk/2K8F7ClgAjQcSwGH6p0m5lPOWFyVOSW5D7/fHsznHkNEDsfeYDnrV9
+smGnBr1Efg56zTHIjdO5pXPLS/fY/U4hVrFrOt7TMpeb2hLEvL0xdAmtTvoJr9x4hD5ZrXgdGq3z
+f6JehrD8bZRNabWUStOC0J4u43uzSHrHM0ZYYgp8jbUszGAGfyza9BwwsLgKBCqdFR0V+4hO/WLL
+Y/m41JRDDaA1KQ9IAiE8</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

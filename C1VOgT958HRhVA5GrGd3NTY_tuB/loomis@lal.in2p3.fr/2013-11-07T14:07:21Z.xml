@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#C1VOgT958HRhVA5GrGd3NTY_tuB">
+
+        <dcterms:identifier>C1VOgT958HRhVA5GrGd3NTY_tuB</dcterms:identifier>
+
+        <slreq:bytes>12884901888</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>00d137a0667400b5065a142102d2db41</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>2d553a04fde7c1d18550391ab19ddcd4d8fedb81</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>c9895e490a5f0760e913ab89b9036b17a7a16f29ff7e7bcefab3ba7ee93a551a</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>2ad7dd52aeca681728b137244ddfdc5e769c49801c8bfe57ff0b66bd1ed06b04d6f6d081d21ae56e8e9368e830d1cf7eb20ff1dabce11129aae2de04f52ac8ac</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2013-11-07T14:07:21Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>loomis@lal.in2p3.fr</email><subject>CN=Charles Loomis,OU=LAL,O=CNRS,C=FR,O=GRID-FR</subject><issuer>CN=GRID2-FR,O=CNRS,C=FR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>Ubuntu</slterms:os>
+        <slterms:os-version>12.04</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>1.1</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>http://pdisk.lal.stratuslab.eu/images/slipstream/torque-master.img.gz</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>SixSq Administrator</dcterms:creator>
+
+        <dcterms:created>2013-11-07T10:43:13Z</dcterms:created>
+        <dcterms:valid>2013-11-09T10:43:13Z</dcterms:valid>
+
+        <dcterms:title>Torque Master</dcterms:title>
+        <dcterms:description>Contains the services necessary for a Torque master.  Use with one or more Torque worker nodes.</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+        <slterms:disks-bus>ide</slterms:disks-bus>
+
+        <dcterms:publisher>SixSq</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>CHZWCdJU5Vb9NGNMwNuTo1DJDaU=</DigestValue></Reference></SignedInfo><SignatureValue>KtSc1FLQAP2j8PW4QkLfm3ChQ78v/ReNQ6lJFB252eyqqNdJXLxGi1kzK7v8aLfsQeX6CEY+xv9t
+dY+qmKo7YzJIPCvQr3+FnOBdQ7xK8eKxRl9bPSWOQWkioQMu7aZ5RwL25A+HwuqdbKca+357/N0l
+7C87KPW+drW2CYPY/aBn989IGsRSkxEgw3MRH8RtGRfsbgswjqwMl7Y/6E3ZlvnwpWuLGCn/LHzv
+0q66l8dxW2jTsJ7AGDDpb1cQcOR1vHEW5XMTi8juA/WB+ox4AM5kJHvu/QFXcQ+9+3naj8L/aeui
+l0q9nmNQDdqQ10z3JFwo5xzFG4zSggxo0/pbvA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIEwTCCA6mgAwIBAgICJf4wDQYJKoZIhvcNAQEFBQAwLzELMAkGA1UEBhMCRlIxDTALBgNVBAoT
+BENOUlMxETAPBgNVBAMTCEdSSUQyLUZSMB4XDTEzMTEwNDA5NTEzOFoXDTE0MTEwNDA5NTEzOFow
+VTEQMA4GA1UEChMHR1JJRC1GUjELMAkGA1UEBhMCRlIxDTALBgNVBAoTBENOUlMxDDAKBgNVBAsT
+A0xBTDEXMBUGA1UEAxMOQ2hhcmxlcyBMb29taXMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQDkY3hF2qnmUZZaLMz8eDCI05MViPBBhOmTplJGuKvht5TU4kygNfuDnyIwWMwzEVwHn7Zq
+NWU+cQzWaa36DO/iGrbc7CeDeX98Ba8ewMBB8N13Tev1qPCwlQSOtD25WctTXRiPH/LxiMs6BVXu
+Y5/bO2RPUpjRRwwXu3mBQvyC7+rDuBsiO9eqaf7QfDZWJQhaEu4rG9u4mXEpX+GALvH8Y4K5Gzpp
+UhL6xQLXgYlxeGTvRHsdO0YHlypp8S+MqcfbEUHfiZAHtRF99ehMhTWqDy/IVzknmMPx7QOl3YNj
+A+lten26f2EEPvQxG7dWU4BqVQU34C3sfju33pMX8vf/AgMBAAGjggG/MIIBuzAMBgNVHRMBAf8E
+AjAAMBEGCWCGSAGG+EIBAQQEAwIEsDAOBgNVHQ8BAf8EBAMCA/gwZAYJYIZIAYb4QgENBFcWVUNl
+cnRpZmljYXRlIEdSSUQyLUZSLiBGb3IgbW9yZSBpbmZvcm1hdGlvbiwgc2VlIGh0dHA6Ly9pZ2Mu
+c2VydmljZXMuY25ycy5mci9HUklEMi1GUi8wHQYDVR0OBBYEFONHNHGffZLWHI4UOlGYiUI0nf+x
+MFwGA1UdIwRVMFOAFCeWSCfuIbbyr7Etffr310glcJWToTikNjA0MQswCQYDVQQGEwJGUjENMAsG
+A1UEChMEQ05SUzEWMBQGA1UEAxMNQ05SUzItUHJvamV0c4IBAzAnBgNVHSAEIDAeMA4GDCsGAQQB
+1D0BAQgCATAMBgoqhkiG90wFAgIBMB4GA1UdEQQXMBWBE2xvb21pc0BsYWwuaW4ycDMuZnIwQQYD
+VR0fBDowODA2oDSgMoYwaHR0cDovL2NybHMuc2VydmljZXMuY25ycy5mci9HUklEMi1GUi9nZXRk
+ZXIuY3JsMBkGCCsGAQQBu2IBBA11bmljb3JlQ2xpZW50MA0GCSqGSIb3DQEBBQUAA4IBAQCr0WxL
+F+ZXzl/id6OibTuPMn500H2U/cfQwQaK490kOawIm971EtA4w7IQrOSXER5hrVvAyP5pT8y4fYdH
+pofx8V4C1Gz9yWdVvyYbtRWp/lhyt9S3oKOK/sVxs/3zahP/SdUZqRDlYA8O9PwCL2LAesvnxrFI
+vWhZQu2DPABLMmUxyi9MGVXyHKcx1gnNgyUXw2uZoI1vDQst4gKg2jOS/cteU5/8PTRtChiHvgD9
+eQ0NboWAnhIXiEChzTxQ5bUFJbB/iVtgCO0CKOLyALuPxUq7mKPmaVcfGOH2SweVcberZ4MBJ4a5
+eJj7lmUXYUOVstzXftVYF138xfYH7R9E</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

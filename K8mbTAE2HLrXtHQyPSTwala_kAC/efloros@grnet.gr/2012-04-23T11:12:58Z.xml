@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#K8mbTAE2HLrXtHQyPSTwala_kAC">
+
+        <dcterms:identifier>K8mbTAE2HLrXtHQyPSTwala_kAC</dcterms:identifier>
+
+        <slreq:bytes>14336000000</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>d41d8cd98f00b204e9800998ecf8427e</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>af266d3004d872eb5ed1d0c8f493c1a95afe4002</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2012-04-23T11:12:58Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>efloros@grnet.gr</email><subject>CN=Vangelis Floros,OU=grnet.gr,O=HellasGrid,C=GR</subject><issuer>CN=HellasGrid CA 2006,OU=Certification Authorities,O=HellasGrid,C=GR</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>CentOS</slterms:os>
+        <slterms:os-version>5.5</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>2.6</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>pdisk:onehost-7.lal.in2p3.fr:8445:44ad45d6-ee09-4244-9a87-a394094ed553</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Vangelis Floros</dcterms:creator>
+
+        <dcterms:created>2012-04-23T09:13:58Z</dcterms:created>
+        <dcterms:valid>2015-04-25T09:13:58Z</dcterms:valid>
+
+        <dcterms:description>CentOS machine with OpenMPI 1.4 pre-installed and configured. Provides NFS thus can be used for building virtual clusters over NFS shared storage. Configured with MM5 v3.7.4 binaries compiled with Intel compiler. Includes PGI compiler dynamic linked libraries. Also includes all necessary utilities for decoding and preprocessing GRIB2 files to by used as input for MM5. The appliance provides a RESTful service that enables the remote invocation and monitoring of the application. The service is available from http port 8080 under /apprun</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>BDMQ0Q4HUWoj9MOzTcke4IdELgM=</DigestValue></Reference></SignedInfo><SignatureValue>SJlXHm3asTmycZ6D44Wj//zY7L60SehnJyattnZJfmlZwbrpnw2d0EZlLi0Q9jMZlw8fC+ztr8Nm
+OO5R+flziNRddLDWWItFT+Ta7hLEsKdzAf7uKnRAEl/EgEAesee789EtebHum3GwPz+rNNnvSYpL
+c/zgNvLOGTV3KbkwaEFtZNNXbDgt4iBNRQl58nKvzfga7cjo42X62BWRbgCWysvSEE0SNThf/9r1
+Jrk8jny7NQ8Mz8h+OIPj9QI3gqp69ZJXcwjPcP9F+LZ/zXSwl4BuFSIhb1uk5To7jQMaQRVpgnXp
+JOq2+ymhmrkALVo/cF/AFGwj91d2nY+qdr4kWQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFRzCCBC+gAwIBAgICCCcwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCR1IxEzARBgNVBAoT
+CkhlbGxhc0dyaWQxIjAgBgNVBAsTGUNlcnRpZmljYXRpb24gQXV0aG9yaXRpZXMxGzAZBgNVBAMT
+EkhlbGxhc0dyaWQgQ0EgMjAwNjAeFw0xMTA2MjEwOTA1MTFaFw0xMjA2MjAwOTA1MTFaME8xCzAJ
+BgNVBAYTAkdSMRMwEQYDVQQKEwpIZWxsYXNHcmlkMREwDwYDVQQLEwhncm5ldC5ncjEYMBYGA1UE
+AxMPVmFuZ2VsaXMgRmxvcm9zMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA29T7fzMA
+cDq51DwCsRBAYfPh5r1WaUBUh+OhTMDN4Q8hSSpMar3jVWyYnygJGOcZnby13m7g28C086eDzg2C
+I9sbjWZHPuN2XXjPf9xFNBgryBNUE0lHLucjWLcSeJSIASKn3jBQegcA608GSNP+RoUGpEo4jKBS
+13B0eAwZ0ywXShdeqvPiMOoFDt1ydOJFgC3os1RhPMJ4eQxE/ekUndlv0+epEgbhb4R+THHumLu4
+4F5zUUgDE8ELnXRCVATwX6ndcbe6to7AhknTriFEYQViAI4rmI/1f3pT9vezwcm9QgxSROE4+IjK
++Q1Eb07DCE6Mrysr2PzzL8TEkrk8zwIDAQABo4ICFzCCAhMwDAYDVR0TAQH/BAIwADARBglghkgB
+hvhCAQEEBAMCBaAwDgYDVR0PAQH/BAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDAdBgNVHQ4EFgQUt5IGNqGHs1UuOg/Fo/M0vRtDLqcwgZIGA1UdIwSBijCBh4AUCdfyXQvjOh9s
+5EO+AT1PPLBmXiahbKRqMGgxCzAJBgNVBAYTAkdSMRMwEQYDVQQKEwpIZWxsYXNHcmlkMSIwIAYD
+VQQLExlDZXJ0aWZpY2F0aW9uIEF1dGhvcml0aWVzMSAwHgYDVQQDExdIZWxsYXNHcmlkIFJvb3Qg
+Q0EgMjAwNoIBATAlBgNVHRIEHjAcgRpoZWxsYXNncmlkLWNhQGdyaWQuYXV0aC5ncjAbBgNVHREE
+FDASgRBlZmxvcm9zQGdybmV0LmdyMH8GA1UdIAR4MHYwdAYNKwYBBAGBukUIAQECADBjMGEGCCsG
+AQUFBwIBFlVodHRwOi8vd3d3LmdyaWQuYXV0aC5nci9wa2kvaGVsbGFzZ3JpZC1jYS0yMDA2L2Rv
+Y3VtZW50cy9jcHMvSGVsbGFzR3JpZC1DQS1DUC1DUFMucGRmMEgGA1UdHwRBMD8wPaA7oDmGN2h0
+dHA6Ly9jcmwuZ3JpZC5hdXRoLmdyL2hlbGxhc2dyaWQtY2EtMjAwNi84MmIzNmZjYS5jcmwwDQYJ
+KoZIhvcNAQEFBQADggEBAIfWMk7MpCdJyr4VOk0SQaMDZ3RfDompSaLCtJdRR2NUNbVaLKy/yE5W
+ze0XDupK7rbYOcc2hNtIqogTqsUO94ifYJWFBezKOhROgfgIp3fgU6i4JgzDFvfieRQga3SaV1DC
+9qVIVCuBSQVPq7AS5B4o6KjAKqSVJnvPcc93H1TmaX9RE6yr4/iKlMG/3HsxJu3x9KEDslX0N/BW
+Sp+8Lnjeni5IIi1c9RuRN1+x/k+z7UthM1wgsSDQbHYVk6qiKaP7eOG1+TFYwoHBEAzcUaiHe+a8
+XkKD4mgyrMVORGx+I3k8anuIXBmuPR+LqR3ZmNvTX9J915qT5q2Ft/SLxOU=</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>

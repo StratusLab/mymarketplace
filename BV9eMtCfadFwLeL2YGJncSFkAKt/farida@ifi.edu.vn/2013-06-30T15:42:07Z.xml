@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:slreq="http://mp.stratuslab.eu/slreq#" xmlns:slterms="http://mp.stratuslab.eu/slterms#" xml:base="http://mp.stratuslab.eu/">
+
+    <rdf:Description rdf:about="#BV9eMtCfadFwLeL2YGJncSFkAKt">
+
+        <dcterms:identifier>BV9eMtCfadFwLeL2YGJncSFkAKt</dcterms:identifier>
+
+        <slreq:bytes>5368709120</slreq:bytes>
+
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>MD5</slreq:algorithm>
+            <slreq:value>36661afe972a199c14ced04a3908f236</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-1</slreq:algorithm>
+            <slreq:value>157d78cb427da745c0b78bd981899dc4859002ad</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-256</slreq:algorithm>
+            <slreq:value>bbec06a9c4de430357d29bed6d47fcd6d776a4615599f0018d6780699273b9d6</slreq:value>
+        </slreq:checksum>
+        <slreq:checksum rdf:parseType="Resource">
+            <slreq:algorithm>SHA-512</slreq:algorithm>
+            <slreq:value>1b8b30f7fa194c5327bb61a142f79c86d72657629f00051df1c6b6a9889ee483057f715fe42f5195e3218b3c02337eabd56363dbe93717ad3a5e7e2545c59067</slreq:value>
+        </slreq:checksum>
+
+        <slreq:endorsement rdf:parseType="Resource"><created xmlns="http://purl.org/dc/terms/">2013-06-30T15:42:07Z</created><endorser xmlns="http://mp.stratuslab.eu/slreq#" rdf:parseType="Resource"><email>farida@ifi.edu.vn</email><subject>CN=Farida LOUACHENI 336199,OU=GRID,O=AP,C=TW</subject><issuer>CN=Academia Sinica Grid Computing Certification Authority Mercury,O=AS,C=TW</issuer></endorser></slreq:endorsement>
+
+        <dcterms:type>base</dcterms:type>
+        <slterms:kind>machine</slterms:kind>
+
+        <slterms:os>Ubuntu</slterms:os>
+        <slterms:os-version>13.04</slterms:os-version>
+        <slterms:os-arch>x86_64</slterms:os-arch>
+        <slterms:version>1.1</slterms:version>
+        <dcterms:compression>gz</dcterms:compression>
+        <slterms:location>pdisk:onehost-7.lal.in2p3.fr:8445:b85e4c1e-3d99-4aa0-b011-3d993adfcb50</slterms:location>
+
+        <dcterms:format>raw</dcterms:format>
+
+        <dcterms:creator>Farida Louacheni</dcterms:creator>
+
+        <dcterms:created>2013-06-30T15:29:13Z</dcterms:created>
+        <dcterms:valid>2013-07-30T15:29:13Z</dcterms:valid>
+
+        <dcterms:title>Ubuntu13.04-test</dcterms:title>
+        <dcterms:description>create Ubuntu13.04 image</dcterms:description>
+
+        <slterms:hypervisor>kvm</slterms:hypervisor>
+        <slterms:disks-bus>ide</slterms:disks-bus>
+
+        <dcterms:publisher>StratusLab</dcterms:publisher>
+        
+
+    </rdf:Description>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>yTyeQECpjLMmLOUlKkjeehFthc8=</DigestValue></Reference></SignedInfo><SignatureValue>EcHgTGMZ93t+YuaYUl5rxgTrIcskcWcmAeB+IHCdMJM1TFLTOf/VLyabkYgntVX9Fy8P4UTHO96S
+Hsp1CjyTOBDruJBYFBPrfViOf+/2GdFTMMz4YlLcvFF5pJi0IwPrpt5oXJCiA5DaUv054BW7PwQo
+c7r9dZTqM42POicsxPEKbVk+K5AZuQ0TTXALAE0yxT6UZb6OkXTJZrHWPTObKR+wTYotbBdzRh50
+lfJUNdz5/EZc/sKU4E7DsMeRk4bW858eOd2b14NzEg9qLfLkmDs8B2O24mkfu9tQvLfu14FdFe8Y
+eacNFyYUzNLYcfhCh/XWrFrqZDq1xqMknnEsxg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIFBDCCA+ygAwIBAgICDdMwDQYJKoZIhvcNAQEFBQAwYzELMAkGA1UEBhMCVFcxCzAJBgNVBAoT
+AkFTMUcwRQYDVQQDEz5BY2FkZW1pYSBTaW5pY2EgR3JpZCBDb21wdXRpbmcgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkgTWVyY3VyeTAeFw0xMzA2MTAwMzIwMjVaFw0xNDA2MTAwMzIwMjVaMEsxCzAJ
+BgNVBAYTAlRXMQswCQYDVQQKEwJBUDENMAsGA1UECxMER1JJRDEgMB4GA1UEAxYXRmFyaWRhIExP
+VUFDSEVOSSAzMzYxOTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC5bYaW0egWLvzB
+26ftjo0I2IpM7dDVsVdm3K5G/Q5UQ59ECrcHAZbW4NE9a8tgPlsTdbW/7GUPxopLRII1cgugOSn2
+Pc4NcZWreoDK5mjvmYRMGj0SMUD30p2VotQFBHDt0AL7FxF7Ce/ZEYmXCcRzhkn5mC9qsZClLBp8
+XzuhWNbQa1VboQYdA+pkJEFvFT3tUmB+j/cAg7m9JfZ/aN0a3WsyWKp4x063Jvcopwf86nk0ocVz
+kGAuw6JTqlFOsK2LCFi+3dn3KETjE/RRrY5MJeGDAyRaoyvlj7CWlYUUtv/ig/hoOdyThr10+G2i
+f07MFBxMCY0+sdh37Ub3c+8DAgMBAAGjggHYMIIB1DAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwID
++DAdBgNVHQ4EFgQUUfqRCHCXeCeX3pd6ao0QIVGpUekwgY0GA1UdIwSBhTCBgoAUf02XFZe0jV/A
+13erMXbQX2viWzChZ6RlMGMxCzAJBgNVBAYTAlRXMQswCQYDVQQKEwJBUzFHMEUGA1UEAxM+QWNh
+ZGVtaWEgU2luaWNhIEdyaWQgQ29tcHV0aW5nIENlcnRpZmljYXRpb24gQXV0aG9yaXR5IE1lcmN1
+cnmCAQAwQwYDVR0SBDwwOoEZYXNnY2NhQGdyaWQuc2luaWNhLmVkdS50d4YdaHR0cDovL2NhLmdy
+aWQuc2luaWNhLmVkdS50dy8wHAYDVR0RBBUwE4ERZmFyaWRhQGlmaS5lZHUudm4wVwYDVR0gBFAw
+TjANBgsrBgEEAa4vCgECATA9BgoqhkiG90wFAgIBMC8wLQYIKwYBBQUHAgEWIWh0dHA6Ly9jYS5n
+cmlkLnNpbmljYS5lZHUudHcvQ1BTLzBMBgNVHR8ERTBDMEGgP6A9hjtodHRwOi8vY2EuZ3JpZC5z
+aW5pY2EuZWR1LnR3L3B1YmxpY2F0aW9uL0NSTC9BU0dDQ0EtY3JsLmRlcjANBgkqhkiG9w0BAQUF
+AAOCAQEAkFfMG/f8yDE6c+Fpav3fFbPdxv0LTcoLP+6hD+IfpbcwVW4FrF7fheejXgjPjfzcGzlZ
+0ofG/y+aZNaMa3l8AtiWnFzlOpKQtWAqHRH6F9elZPFbvBkjEryXaisuqnpdEMcpjouPeY7LTd5t
+K8wzjNpcQS6Zt/po46fb1N9r3RMr8g8qtiM/W2g0nD7TqanomUkGeFY78+t7Z6HoK0oT7MWYckNV
+dkc/9CKgOdNWtByQ1tFdxCh0dlPTnAPygckkG1OZPyI2hVgkz5F41GEjdGNLNr/WmPWRLD8fQEWX
+SAIA5DQkq0BLR6lqEbqXuwkVAUdTVJ+OKueypXQwGKCOsg==</X509Certificate></X509Data></KeyInfo></Signature></rdf:RDF>
